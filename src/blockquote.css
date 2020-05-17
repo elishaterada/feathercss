@@ -1,0 +1,14 @@
+.blockquote {
+  margin: var(--feather-blockquote-margin);
+  padding: 0.75rem 0 0.75rem 1rem;
+  border-left: var(--feather-blockquote-border-width) solid var(--feather-blockquote-border-color);
+  font-family: var(--feather-font-family);
+  font-size: var(--feather-blockquote-font-size);
+  color: var(--feather-blockquote-color);
+}
+
+[dir=rtl] .blockquote {
+  border-left: 0;
+  padding: 0.75rem 1rem 0.75rem 0;
+  border-right: var(--feather-blockquote-border-width) solid var(--feather-blockquote-border-color);
+}

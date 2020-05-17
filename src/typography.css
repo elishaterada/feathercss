@@ -1,0 +1,65 @@
+.heading-1 {
+  margin: var(--feather-heading-margin);
+  line-height: var(--feather-heading-line-height);
+  font-family: var(--feather-font-family);
+  font-size: var(--feather-heading-1-font-size);
+  font-weight: var(--feather-heading-1-font-weight);
+  color: var(--feather-color-gray-0);
+}
+
+.heading-2 {
+  margin: var(--feather-heading-margin);
+  line-height: var(--feather-heading-line-height);
+  font-size: var(--feather-heading-2-font-size);
+  font-weight: var(--feather-heading-2-font-weight);
+  font-family: var(--feather-font-family);
+  color: var(--feather-color-gray-0);
+}
+
+.heading-3 {
+  margin: var(--feather-heading-margin);
+  line-height: var(--feather-heading-line-height);
+  font-size: var(--feather-heading-3-font-size);
+  font-weight: var(--feather-heading-3-font-weight);
+  font-family: var(--feather-font-family);
+  color: var(--feather-color-gray-1);
+}
+
+.heading-4 {
+  margin: var(--feather-heading-margin);
+  line-height: var(--feather-heading-line-height);
+  font-size: var(--feather-heading-4-font-size);
+  font-weight: var(--feather-heading-4-font-weight);
+  font-family: var(--feather-font-family);
+  color: var(--feather-color-gray-1);
+}
+
+.heading-5 {
+  margin: var(--feather-heading-margin);
+  line-height: var(--feather-heading-line-height);
+  font-size: var(--feather-heading-5-font-size);
+  font-weight: var(--feather-heading-5-font-weight);
+  font-family: var(--feather-font-family);
+  color: var(--feather-color-gray-2);
+}
+
+.heading-6 {
+  margin: var(--feather-heading-margin);
+  line-height: var(--feather-heading-line-height);
+  font-size: var(--feather-heading-6-font-size);
+  font-weight: var(--feather-heading-6-font-weight);
+  font-family: var(--feather-font-family);
+  color: var(--feather-color-gray-2);
+}
+
+.paragraph {
+  margin: var(--feather-paragraph-margin);
+  line-height: var(--feather-paragraph-line-height);
+  font-family: var(--feather-font-family);
+  font-size: var(--feather-paragraph-font-size);
+  color: var(--feather-color-gray-2);
+}
+
+.link {
+  color: var(--feather-color-link);
+}
