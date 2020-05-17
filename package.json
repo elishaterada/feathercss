@@ -1,0 +1,37 @@
+{
+  "name": "feathercss",
+  "version": "1.0.0",
+  "description": "FeatherCSS is a lightweight CSS framework that doesn’t get in your way of creativity.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run autoprefix; npm run merge",
+    "autoprefix": "npx postcss src/*.css src/**/*.css src/**/**/*.css --base src --dir dist/ --use autoprefixer --no-map --verbose",
+    "merge": "npx cleancss -02 -o dist/feather.css dist/*.css dist/**/*.css dist/**/**/*.css",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elishaterada/feathercss.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "css3",
+    "front-end",
+    "html",
+    "html5",
+    "bootstrap"
+  ],
+  "author": "Elisha Terada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elishaterada/feathercss/issues"
+  },
+  "homepage": "https://github.com/elishaterada/feathercss#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "clean-css-cli": "^4.3.0",
+    "postcss-cli": "^7.1.1"
+  },
+  "style": "dist/feather.css"
+}

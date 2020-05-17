@@ -1,0 +1,94 @@
+.form {
+  font-family: var(--feather-font-family);
+  grid-gap: var(--feather-form-gap);
+}
+
+/* Common */
+
+.label {
+  position: relative;
+  display: block;
+  margin: 0 0 0.5rem;
+}
+
+.label-text {
+  display: block;
+  margin: var(--feather-label-text-margin);
+  font-family: var(--feather-font-family);
+  font-size: var(--feather-label-text-font-size);
+  color: var(--feather-label-text-color);
+}
+
+
+.form-error-message {
+  display: block;
+  margin: var(--feather-hint-text-margin);
+  font-family: var(--feather-font-family);
+  font-size: var(--feather-hint-text-font-size);
+  color: var(--feather-color-error);
+}
+
+.fieldset {
+  border: 0;
+  padding: 0;
+  -webkit-margin-start: 0;
+  margin-inline-start: 0;
+  -webkit-margin-end: 0;
+  margin-inline-end: 0;
+}
+
+.legend {
+  margin: var(--feather-label-text-margin);
+  padding: 0;
+  font-family: var(--feather-font-family);
+  font-size: var(--feather-hint-text-font-size);
+  color: var(--feather-label-text-color);
+}
+
+
+/* Text Input */
+
+.text-input {
+  outline: none;
+  display: block;
+  box-shadow: none;
+  padding: var(--feather-form-element-padding);
+  border-radius: var(--feather-form-element-roundness);
+  background: var(--feather-color-gray-8);
+  border: var(--feather-form-border);
+  font-family: var(--feather-font-family);
+  font-size: var(--feather-form-element-font-size);
+  color: var(--feather-form-element-text-color);
+  transition: border-color var(--feather-color-primary) ease;
+}
+
+.text-input:focus, .text-input:active {
+  border-color: var(--feather-color-primary);
+}
+
+.form-success-message {
+  display: block;
+  margin: var(--feather-hint-text-margin);
+  font-family: var(--feather-font-family);
+  font-size: var(--feather-hint-text-font-size);
+  color: var(--feather-color-success);
+}
+
+/* Textarea */
+.textarea {
+  outline: none;
+  display: block;
+  box-shadow: none;
+  padding: var(--feather-form-element-padding);
+  border-radius: var(--feather-form-element-roundness);
+  background: var(--feather-color-gray-8);
+  border: var(--feather-form-border);
+  font-family: var(--feather-font-family);
+  font-size: var(--feather-form-element-font-size);
+  color: var(--feather-form-element-text-color);
+  transition: border-color var(--feather-color-primary) ease;
+}
+
+.textarea:focus, .textarea:active {
+  border-color: var(--feather-color-primary);
+}

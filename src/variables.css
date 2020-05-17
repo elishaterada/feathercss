@@ -1,8 +1,10 @@
 /* CSS Variables for Light and Dark theme */
 
 :root {
+  /* Common */
   --feather-font-family: -apple-system, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --feather-transition-speed: 0.15s;
+  --disabled-opacity: 0.75;
 
   /* Colors */
   --feather-color-primary: hsl(260, 77%, 57%);

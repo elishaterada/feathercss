@@ -25,6 +25,18 @@
   grid-gap: 2rem;
 }
 
+.preview-buttons {
+  display: grid;
+  justify-content: start;
+  grid-gap: 1rem;
+  grid-template-columns: repeat( auto-fit, minmax(8rem, 12rem) );
+}
+
+.preview-form {
+  display: grid;
+  grid-gap: 2rem;
+}
+
 @media (min-width: 80rem) {
   .preview-theme-group {
     grid-template-columns: 1fr 1fr 1fr;

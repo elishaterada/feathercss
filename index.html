@@ -6,12 +6,15 @@
     content="initial-scale=1.0, width=device-width"
   />
   <link rel="stylesheet" href="src/variables.css" />
-  <link rel="stylesheet" href="src/typography.css" />
-  <link rel="stylesheet" href="src/blockquote.css" />
-  <link rel="stylesheet" href="src/button.css" />
-  <link rel="stylesheet" href="src/list.css" />
-  <link rel="stylesheet" href="src/form.css" />
-  <link rel="stylesheet" href="src/table.css" />
+  <link rel="stylesheet" href="src/components/typography.css" />
+  <link rel="stylesheet" href="src/components/blockquote.css" />
+  <link rel="stylesheet" href="src/components/button.css" />
+  <link rel="stylesheet" href="src/components/list.css" />
+  <link rel="stylesheet" href="src/components/form/common.css" />
+  <link rel="stylesheet" href="src/components/form/select.css" />
+  <link rel="stylesheet" href="src/components/form/checkbox.css" />
+  <link rel="stylesheet" href="src/components/form/radio.css" />
+  <link rel="stylesheet" href="src/components/table.css" />
 
   <!-- For Preview Purpose Only -->
   <link rel="stylesheet" href="../preview.css" />
@@ -83,7 +86,7 @@
   <section class="preview-section">
     <h2 class="preview-title">Buttons</h2>
     <div class="preview-theme-group">
-      <div class="preview-light-theme">
+      <div class="preview-light-theme preview-buttons">
         <button class="button">
           Default Button
         </button>
@@ -94,7 +97,7 @@
           Clear Button
         </button>
       </div>
-      <div class="preview-light-theme" dir="rtl">
+      <div class="preview-light-theme preview-buttons" dir="rtl">
         <button class="button">
           Default Button
         </button>
@@ -105,7 +108,7 @@
           Clear Button
         </button>
       </div>
-      <div class="preview-dark-theme" data-theme="dark">
+      <div class="preview-dark-theme preview-buttons" data-theme="dark">
         <button class="button">
           Default Button
         </button>
@@ -189,7 +192,7 @@
     <h2 class="preview-title">Form</h2>
     <div class="preview-theme-group">
       <div class="preview-light-theme">
-        <form class="form">
+        <form class="form preview-form">
           <label class="label" for="username">
             <span class="label-text">Username</span>
             <input class="text-input" type="text" id="username" name="username" placeholder="Enter username here">
@@ -255,7 +258,7 @@
         </form>
       </div>
       <div class="preview-light-theme" dir="rtl">
-        <form class="form">
+        <form class="form preview-form">
           <label class="label" for="username">
             <span class="label-text">Username</span>
             <input class="text-input" type="text" id="username-rtl" name="username-rtl" placeholder="Enter username here">
@@ -321,7 +324,7 @@
         </form>
       </div>
       <div class="preview-dark-theme" data-theme="dark">
-        <form class="form">
+        <form class="form preview-form">
           <label class="label" for="username-dark">
             <span class="label-text">Username</span>
             <input class="text-input" type="text" id="username-dark" name="username-dark" placeholder="Enter username here">
@@ -416,7 +419,7 @@
           <tfoot>
           <tr class="tr">
             <td class="td" colspan="3">
-              Source: <a href="https://en.wikipedia.org/wiki/Coffee" rel="noopener noreferer">Coffee</a>, <a
+              Source: <a class="link" href="https://en.wikipedia.org/wiki/Coffee" rel="noopener noreferer">Coffee</a>, <a class="link"
               href="https://en.wikipedia.org/wiki/Tea" rel="noopener noreferer"
             >Tea</a>
             </td>
@@ -448,7 +451,7 @@
           <tfoot>
           <tr class="tr">
             <td class="td" colspan="3">
-              Source: <a href="https://en.wikipedia.org/wiki/Coffee" rel="noopener noreferer">Coffee</a>, <a
+              Source: <a class="link" href="https://en.wikipedia.org/wiki/Coffee" rel="noopener noreferer">Coffee</a>, <a class="link"
               href="https://en.wikipedia.org/wiki/Tea" rel="noopener noreferer"
             >Tea</a>
             </td>

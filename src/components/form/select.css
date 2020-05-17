@@ -1,0 +1,47 @@
+.select {
+  display: inline-block;
+  position: relative;
+}
+
+.select:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-100%, -50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.375rem 0.375rem 0 0.375rem;
+  border-color: var(--feather-color-border) transparent transparent transparent;
+}
+
+[dir=rtl] .select:after {
+  right: initial;
+  left: 0;
+  transform: translate(100%, -50%);
+}
+
+.select-input {
+  width: 100%;
+  -webkit-appearance: none;
+  outline: none;
+  display: block;
+  box-shadow: none;
+  border: var(--feather-form-border);
+  padding: var(--feather-select-input-padding);
+  border-radius: var(--feather-form-element-roundness);
+  background-color: var(--feather-color-gray-8);
+  font-family: var(--feather-font-family);
+  font-size: var(--feather-form-element-font-size);
+  color: var(--feather-form-element-text-color);
+  transition: border-color var(--feather-color-primary) ease;
+}
+
+[dir=rtl] .select-input {
+  padding: var(--feather-select-input-padding-rtl);
+}
+
+.select-input:focus, .select-input:active {
+  border-color: var(--feather-color-primary);
+}
