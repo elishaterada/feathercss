@@ -1,18 +1,16 @@
-
-.radio-input {
+input[type=radio] {
   opacity: 0;
   width: 1rem;
   height: 1rem;
   margin: 0 0.25rem 0 0.0875rem;
 }
 
-.radio-label {
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-form-element-font-size);
-  color: var(--feather-form-element-text-color);
+input[type=radio]~span {
+  font-size: 1rem;
+  color: var(--feather-color-gray-2);
 }
 
-.radio-label:before {
+input[type=radio]~span:before {
   box-sizing: border-box;
   content: "";
   position: absolute;
@@ -21,16 +19,16 @@
   width: 1.125rem;
   height: 1.125rem;
   border-radius: 50%;
-  border: var(--feather-form-border);
+  border: 0.063rem solid var(--feather-color-border);
   background: var(--feather-color-gray-8);
   transition: border-color var(--feather-transition-speed) ease, background-color var(--feather-transition-speed) ease;
 }
 
-[dir=rtl] .radio-label:before {
+[dir=rtl] input[type=radio]~span:before {
   right: 0;
 }
 
-.radio-label:after {
+input[type=radio]~span:after {
   content: "";
   box-sizing: border-box;
   opacity: 0;
@@ -43,25 +41,25 @@
   background: white;
 }
 
-[dir=rtl] .radio-label:after {
+[dir=rtl] input[type=radio]~span:after {
   left: initial;
   right: 0.375rem;
 }
 
-.radio-input:focus~.radio-label:before {
-  border-color: var(--feather-radio-checked-color);
+input[type=radio]:focus~span:before {
+  border-color: var(--feather-color-primary);
 }
 
-.radio-input:checked~.radio-label:before {
-  border-color: var(--feather-radio-checked-color);
-  background: var(--feather-radio-checked-color);
+input[type=radio]:checked~span:before {
+  border-color: var(--feather-color-primary);
+  background: var(--feather-color-primary);
 }
 
-.radio-input:focus:checked~.radio-label:before {
-  background: var(--feather-radio-focus-color);
-  border-color: var(--feather-radio-focus-color);
+input[type=radio]:focus:checked~span:before {
+  background: var(--feather-color-primary-focus);
+  border-color: var(--feather-color-primary-focus);
 }
 
-.radio-input:checked~.radio-label:after {
+input[type=radio]:checked~span:after {
   opacity: 1;
 }

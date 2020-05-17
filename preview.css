@@ -1,18 +1,19 @@
 /* For Preview Only */
 
 .preview-hero-title {
-  padding: 2rem;
-  margin: var(--feather-heading-margin);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-heading-2-font-size);
-  font-weight: var(--feather-heading-line-height);
+  padding: 1rem 2rem;
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+
+.preview-nav {
+  padding: 1rem 2rem;
 }
 
 .preview-title {
   margin: 0 0 2rem;
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-heading-3-font-size);
-  font-weight: var(--feather-heading-line-height);
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .preview-section {
@@ -45,14 +46,14 @@
 
 .preview-light-theme {
   padding: 2rem;
-  background: #FFFFFF;
+  background: white;
   border: 0.125rem solid var(--feather-color-gray-5);
   border-radius: var(--feather-roundness-2);
 }
 
 .preview-dark-theme {
   padding: 2rem;
-  background: #000000;
+  background: black;
   border: 0.125rem solid var(--feather-color-gray-5);
   border-radius: var(--feather-roundness-2);
 }

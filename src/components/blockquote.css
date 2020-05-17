@@ -1,14 +1,13 @@
-.blockquote {
-  margin: var(--feather-blockquote-margin);
+blockquote {
+  margin: 1rem 0;
   padding: 0.75rem 0 0.75rem 1rem;
-  border-left: var(--feather-blockquote-border-width) solid var(--feather-blockquote-border-color);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-blockquote-font-size);
-  color: var(--feather-blockquote-color);
+  border-left: 0.25rem solid var(--feather-color-primary);
+  font-size: 1.313rem; /* 21px */
+  color: var(--feather-color-gray-2);
 }
 
-[dir=rtl] .blockquote {
+[dir=rtl] blockquote {
   border-left: 0;
   padding: 0.75rem 1rem 0.75rem 0;
-  border-right: var(--feather-blockquote-border-width) solid var(--feather-blockquote-border-color);
+  border-right: 0.25rem solid var(--feather-color-primary);
 }

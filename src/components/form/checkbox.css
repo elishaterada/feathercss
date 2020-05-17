@@ -1,17 +1,16 @@
-.checkbox-input {
+input[type="checkbox"] {
   opacity: 0;
   width: 1rem;
   height: 1rem;
   margin: 0 0.25rem 0 0.0875rem;
 }
 
-.checkbox-label {
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-form-element-font-size);
-  color: var(--feather-form-element-text-color);
+input[type="checkbox"]~span {
+  font-size: 1rem;
+  color: var(--feather-color-gray-2);
 }
 
-.checkbox-label:before {
+input[type="checkbox"]~span:before {
   box-sizing: border-box;
   content: "";
   position: absolute;
@@ -20,16 +19,16 @@
   width: 1.125rem;
   height: 1.125rem;
   border-radius: var(--feather-roundness-2);
-  border: var(--feather-form-border);
+  border: 0.063rem solid var(--feather-color-border);
   background: var(--feather-color-gray-8);
   transition: border-color var(--feather-transition-speed) ease, background-color var(--feather-transition-speed) ease;
 }
 
-[dir=rtl] .checkbox-label:before {
+[dir=rtl] input[type="checkbox"]~span:before {
   right: 0;
 }
 
-.checkbox-label:after {
+input[type="checkbox"]~span:after {
   box-sizing: border-box;
   opacity: 0;
   position: absolute;
@@ -40,25 +39,25 @@
   color: white;
 }
 
-[dir=rtl] .checkbox-label:after {
+[dir=rtl] input[type="checkbox"]~span:after {
   left: initial;
   right: 0.2155rem;
 }
 
-.checkbox-input:focus~.checkbox-label:before {
-  border-color: var(--feather-checkbox-checked-color);
+input[type="checkbox"]:focus~span:before {
+  border-color: var(--feather-color-primary);
 }
 
-.checkbox-input:checked~.checkbox-label:before {
-  border-color: var(--feather-checkbox-checked-color);
-  background: var(--feather-checkbox-checked-color);
+input[type="checkbox"]:checked~span:before {
+  border-color: var(--feather-color-primary);
+  background: var(--feather-color-primary);
 }
 
-.checkbox-input:focus:checked~.checkbox-label:before {
-  background: var(--feather-checkbox-focus-color);
-  border-color: var(--feather-checkbox-focus-color);
+input[type="checkbox"]:focus:checked~span:before {
+  background: var(--feather-color-primary-focus);
+  border-color: var(--feather-color-primary-focus);
 }
 
-.checkbox-input:checked~.checkbox-label:after {
+input[type="checkbox"]:checked~span:after {
   opacity: 1;
 }

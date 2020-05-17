@@ -5,7 +5,9 @@
     name="viewport"
     content="initial-scale=1.0, width=device-width"
   />
-  <link rel="stylesheet" href="src/variables.css" />
+  <!-- <link rel="stylesheet" href="dist/feather.min.css" /> -->
+  <link rel="stylesheet" href="src/components/variables.css" />
+  <link rel="stylesheet" href="src/components/global.css" />
   <link rel="stylesheet" href="src/components/typography.css" />
   <link rel="stylesheet" href="src/components/blockquote.css" />
   <link rel="stylesheet" href="src/components/button.css" />
@@ -23,7 +25,18 @@
 <main>
   <h1 class="preview-hero-title">FeatherCSS Preview</h1>
 
-  <section class="preview-section">
+  <nav class="preview-nav">
+    <ul>
+      <li><a href="#typography">Typography</a></li>
+      <li><a href="#blockquote">Blockquote</a></li>
+      <li><a href="#buttons">Buttons</a></li>
+      <li><a href="#list">List</a></li>
+      <li><a href="#form">Form</a></li>
+      <li><a href="#table">Table</a></li>
+    </ul>
+  </nav>
+
+  <section id="typography" class="preview-section">
     <h2 class="preview-title">Typography</h2>
     <div class="preview-theme-group">
       <div class="preview-light-theme">
@@ -62,7 +75,7 @@
     </div>
   </section>
 
-  <section class="preview-section">
+  <section id="blockquote" class="preview-section">
     <h2 class="preview-title">Blockquote</h2>
     <div class="preview-theme-group">
       <div class="preview-light-theme">
@@ -83,7 +96,7 @@
     </div>
   </section>
 
-  <section class="preview-section">
+  <section id="buttons" class="preview-section">
     <h2 class="preview-title">Buttons</h2>
     <div class="preview-theme-group">
       <div class="preview-light-theme preview-buttons">
@@ -122,7 +135,7 @@
     </div>
   </section>
 
-  <section class="preview-section">
+  <section id="list" class="preview-section">
     <h2 class="preview-title">List</h2>
     <div class="preview-theme-group">
       <div class="preview-light-theme">
@@ -188,7 +201,7 @@
     </div>
   </section>
 
-  <section class="preview-section">
+  <section id="form" class="preview-section">
     <h2 class="preview-title">Form</h2>
     <div class="preview-theme-group">
       <div class="preview-light-theme">
@@ -392,7 +405,7 @@
     </div>
   </section>
 
-  <section class="preview-section">
+  <section id="table" class="preview-section">
     <h2 class="preview-title">Table</h2>
     <div class="preview-theme-group">
       <div class="preview-light-theme">

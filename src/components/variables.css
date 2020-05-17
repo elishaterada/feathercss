@@ -1,0 +1,60 @@
+/*!
+ * FeatherCSS v1.0.0
+ * https://github.com/elishaterada/feathercss
+ *
+ * Copyright (c) 2020 Elisha Terada
+ * Licensed under the MIT license
+ */
+
+:root {
+  /* Common */
+  --feather-font-family: -apple-system, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --feather-transition-speed: 0.15s;
+  --disabled-opacity: 0.75;
+
+  /* Colors */
+  --feather-color-primary: hsl(260, 77%, 57%);
+  --feather-color-primary-focus: hsl(260, 77%, 64%);
+  --feather-color-success: hsl(130, 77%, 30%);
+  --feather-color-error: hsl(0, 77%, 52%);
+  --feather-color-link: var(--feather-color-primary);
+  --feather-color-link-focus: var(--feather-color-primary-focus);
+  --feather-color-gray-0: hsl(0, 0%, 0%);
+  --feather-color-gray-1: hsl(0, 0%, 15%);
+  --feather-color-gray-2: hsl(0, 0%, 30%);
+  --feather-color-gray-3: hsl(0, 0%, 45%);
+  --feather-color-gray-4: hsl(0, 0%, 75%);
+  --feather-color-gray-5: hsl(0, 0%, 92%);
+  --feather-color-gray-6: hsl(0, 0%, 96%);
+  --feather-color-gray-7: hsl(0, 0%, 99%);
+  --feather-color-gray-8: hsl(0, 0%, 100%);
+  --feather-color-border: hsl(0, 0%, 70%);
+
+  /* Aesthetics */
+  --feather-roundness-1: 0.188rem; /* 3px */
+  --feather-roundness-2: 0.313rem;/* 5px */
+  --feather-roundness-3: 0.438rem; /* 7px */
+
+  /* Typography */
+  --feather-base-line-height: 1.6;
+  --feather-base-font-size: 0.875rem; /* 14px */
+}
+
+[data-theme="dark"] {
+  --feather-color-primary: hsl(260, 77%, 64%);
+  --feather-color-primary-focus: hsl(260, 77%, 57%);
+  --feather-color-success: hsl(130, 77%, 40%);
+  --feather-color-error: hsl(0, 77%, 62%);
+  --feather-color-link: var(--feather-color-primary);
+  --feather-color-link-focus: var(--feather-color-primary-focus);
+  --feather-color-gray-0: hsl(0, 0%, 100%);
+  --feather-color-gray-1: hsl(0, 0%, 85%);
+  --feather-color-gray-2: hsl(0, 0%, 70%);
+  --feather-color-gray-3: hsl(0, 0%, 55%);
+  --feather-color-gray-4: hsl(0, 0%, 45%);
+  --feather-color-gray-5: hsl(0, 0%, 25%);
+  --feather-color-gray-6: hsl(0, 0%, 15%);
+  --feather-color-gray-7: hsl(0, 0%, 12%);
+  --feather-color-gray-8: hsl(0, 0%, 10%);
+  --feather-color-border: hsl(0, 0%, 25%);
+}

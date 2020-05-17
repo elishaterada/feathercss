@@ -22,26 +22,25 @@
   transform: translate(100%, -50%);
 }
 
-.select-input {
+select {
   width: 100%;
   -webkit-appearance: none;
   outline: none;
   display: block;
   box-shadow: none;
-  border: var(--feather-form-border);
-  padding: var(--feather-select-input-padding);
-  border-radius: var(--feather-form-element-roundness);
+  border: 0.063rem solid var(--feather-color-border);
+  padding: 0.5rem 1.75rem 0.5rem 0.75rem;
+  border-radius: var(--feather-roundness-1);
   background-color: var(--feather-color-gray-8);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-form-element-font-size);
-  color: var(--feather-form-element-text-color);
+  font-size: 1rem;
+  color: var(--feather-color-gray-2);
   transition: border-color var(--feather-color-primary) ease;
 }
 
-[dir=rtl] .select-input {
-  padding: var(--feather-select-input-padding-rtl);
+[dir=rtl] select {
+  padding: 0.5rem 0.75rem 0.5rem 1.75rem;
 }
 
-.select-input:focus, .select-input:active {
+select:focus, select:active {
   border-color: var(--feather-color-primary);
 }

@@ -4,14 +4,13 @@
   outline: none;
   cursor: pointer;
   box-shadow: none;
-  background: var(--feather-button-background-color);
+  background: var(--feather-color-gray-8);
   margin: 0;
-  padding: var(--feather-button-padding);
-  border: var(--feather-button-border);
-  border-radius: var(--feather-button-border-radius);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-button-font-size);
-  color: var(--feather-button-color);
+  padding: 0.75rem 2rem;
+  border: 0.063rem solid var(--feather-color-border);
+  border-radius: var(--feather-roundness-1);
+  font-size: var(--feather-base-font-size);
+  color: var(--feather-color-gray-1);
   transition: background-color var(--feather-transition-speed) ease;
 }
 
@@ -31,11 +30,10 @@
   box-shadow: none;
   background: var(--feather-color-primary);
   margin: 0;
-  padding: var(--feather-button-padding);
-  border: var(--feather-primary-button-border);
-  border-radius: var(--feather-button-border-radius);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-button-font-size);
+  padding: 0.75rem 2rem;
+  border: 0.063rem solid var(--feather-color-primary);
+  border-radius: var(--feather-roundness-1);
+  font-size: var(--feather-base-font-size);
   color: #FFFFFF;
   transition: background-color var(--feather-transition-speed) ease, border-color var(--feather-transition-speed) ease;
 }
@@ -56,12 +54,11 @@
   box-shadow: none;
   background: transparent;
   margin: 0;
-  padding: var(--feather-button-padding);
+  padding: 0.75rem 2rem;
   border: 0;
-  border-radius: var(--feather-button-border-radius);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-button-font-size);
-  color: var(--feather-button-color);
+  border-radius: var(--feather-roundness-1);
+  font-size: var(--feather-base-font-size);
+  color: var(--feather-color-gray-1);
   transition: background-color var(--feather-transition-speed) ease;
 }
 

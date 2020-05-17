@@ -5,10 +5,10 @@ FeatherCSS is a lightweight CSS framework that doesn’t get in your way of crea
 
 ## In a nutshell
 
-- It’s Just CSS™ with CSS variables for customization. Integrate with your favorite JS framework.
-- Dark Mode theme out of box with ```[data-theme=dark]```
-- a11y and rtl friendly
-
+- It’s Just CSS™ with which you can build on with CSS variables
+- Only 2kb gzipped
+- Dark Mode support out of box when you append ```[data-theme=dark]``` to the body or at component level. You can bring your JS solution to let users toggle the data attribute on and off, or set automatically from system settings.
+- a11y friendly markup and CSS to achieve custom look and feel, and RTL support for wider adoption.
 
 
 ## Is it for you?
@@ -67,51 +67,54 @@ Only ```variables.css``` file is required for all other CSS components to work. 
 import "feathercss";
 
 /* or import them individually */
-import "feathercss/dist/variables";
-import "feathercss/dist/typography";
-import "feathercss/dist/blockquote";
-import "feathercss/dist/buttons";
-import "feathercss/dist/list";
-import "feathercss/dist/form/common";
-import "feathercss/dist/form/select";
-import "feathercss/dist/form/checkbox";
-import "feathercss/dist/form/radio";
-import "feathercss/dist/table";
+import "feathercss/dist/components/variables"; // Required
+import "feathercss/dist/components/global"; // Required
+import "feathercss/dist/components/typography";
+import "feathercss/dist/components/blockquote";
+import "feathercss/dist/components/buttons";
+import "feathercss/dist/components/list";
+import "feathercss/dist/components/form/common";
+import "feathercss/dist/components/form/select";
+import "feathercss/dist/components/form/checkbox";
+import "feathercss/dist/components/form/radio";
+import "feathercss/dist/components/table";
 ```
 
 
 ### For CSS
 
 ```css
-@import "feathercss/dist/feather.css";
+@import "feathercss/dist/feather.css"; /* or feather.min.css */
 
 /* or import them individually */
-@import "feathercss/dist/variables.css";
-@import "feathercss/dist/typography.css";
-@import "feathercss/dist/blockquote.css";
-@import "feathercss/dist/buttons.css";
-@import "feathercss/dist/list.css";
-@import "feathercss/dist/form/common.css";
-@import "feathercss/dist/form/select.css";
-@import "feathercss/dist/form/checkbox.css";
-@import "feathercss/dist/form/radio.css";
-@import "feathercss/dist/table.css";
+@import "feathercss/dist/components/variables.css";
+@import "feathercss/dist/components/global.css";
+@import "feathercss/dist/components/typography.css";
+@import "feathercss/dist/components/blockquote.css";
+@import "feathercss/dist/components/buttons.css";
+@import "feathercss/dist/components/list.css";
+@import "feathercss/dist/components/form/common.css";
+@import "feathercss/dist/components/form/select.css";
+@import "feathercss/dist/components/form/checkbox.css";
+@import "feathercss/dist/components/form/radio.css";
+@import "feathercss/dist/components/table.css";
 ```
 
 ### For LESS/Sass
 
 ```css
-@import "feathercss/dist/feather.css";
+@import "feathercss/dist/feather"; /* or feather.min */
 
 /* or import them individually */
-@import "feathercss/dist/variables.css";
-@import "feathercss/dist/typography.css";
-@import "feathercss/dist/blockquote.css";
-@import "feathercss/dist/buttons.css";
-@import "feathercss/dist/list.css";
-@import "feathercss/dist/form/common.css";
-@import "feathercss/dist/form/select.css";
-@import "feathercss/dist/form/checkbox.css";
-@import "feathercss/dist/form/radio.css";
-@import "feathercss/dist/table.css";
+@import "feathercss/dist/components/variables";
+@import "feathercss/dist/components/global";
+@import "feathercss/dist/components/typography";
+@import "feathercss/dist/components/blockquote";
+@import "feathercss/dist/components/buttons";
+@import "feathercss/dist/components/list";
+@import "feathercss/dist/components/form/common";
+@import "feathercss/dist/components/form/select";
+@import "feathercss/dist/components/form/checkbox";
+@import "feathercss/dist/components/form/radio";
+@import "feathercss/dist/components/table";
 ```

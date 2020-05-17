@@ -1,6 +1,5 @@
 .form {
-  font-family: var(--feather-font-family);
-  grid-gap: var(--feather-form-gap);
+  grid-gap: 2rem;
 }
 
 /* Common */
@@ -13,18 +12,16 @@
 
 .label-text {
   display: block;
-  margin: var(--feather-label-text-margin);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-label-text-font-size);
-  color: var(--feather-label-text-color);
+  margin: 0 0 0.5rem;
+  font-size: var(--feather-base-font-size);
+  color: var(--feather-color-gray-2);
 }
 
 
 .form-error-message {
   display: block;
-  margin: var(--feather-hint-text-margin);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-hint-text-font-size);
+  margin: 0.125rem 0 0;
+  font-size: var(--feather-base-font-size);
   color: var(--feather-color-error);
 }
 
@@ -38,11 +35,10 @@
 }
 
 .legend {
-  margin: var(--feather-label-text-margin);
+  margin: 0 0 0.5rem;
   padding: 0;
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-hint-text-font-size);
-  color: var(--feather-label-text-color);
+  font-size: var(--feather-base-font-size);
+  color: var(--feather-color-gray-2);
 }
 
 
@@ -52,13 +48,12 @@
   outline: none;
   display: block;
   box-shadow: none;
-  padding: var(--feather-form-element-padding);
-  border-radius: var(--feather-form-element-roundness);
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--feather-roundness-1);
   background: var(--feather-color-gray-8);
-  border: var(--feather-form-border);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-form-element-font-size);
-  color: var(--feather-form-element-text-color);
+  border: 0.063rem solid var(--feather-color-border);
+  font-size: 1rem;
+  color: var(--feather-color-gray-2);
   transition: border-color var(--feather-color-primary) ease;
 }
 
@@ -68,9 +63,8 @@
 
 .form-success-message {
   display: block;
-  margin: var(--feather-hint-text-margin);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-hint-text-font-size);
+  margin: 0.125rem 0 0;
+  font-size: var(--feather-base-font-size);
   color: var(--feather-color-success);
 }
 
@@ -79,13 +73,12 @@
   outline: none;
   display: block;
   box-shadow: none;
-  padding: var(--feather-form-element-padding);
-  border-radius: var(--feather-form-element-roundness);
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--feather-roundness-1);
   background: var(--feather-color-gray-8);
-  border: var(--feather-form-border);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-form-element-font-size);
-  color: var(--feather-form-element-text-color);
+  border: 0.063rem solid var(--feather-color-border);
+  font-size: 1rem;
+  color: var(--feather-color-gray-2);
   transition: border-color var(--feather-color-primary) ease;
 }
 

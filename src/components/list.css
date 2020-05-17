@@ -1,86 +1,81 @@
-/* Unordered List */
-
-.unordered-list {
+ul {
   margin: 1rem 0;
   padding: 0 0 0 2rem;
   list-style: disc;
 }
 
-[dir=rtl] .unordered-list {
+[dir=rtl] ul {
   padding: 0 2rem 0 0;
 }
 
-.unordered-list__item {
+li {
   margin: 0;
   padding: 0;
-  line-height: var(--feather-list-line-height);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-list-font-size);
-  color: var(--feather-list-color);
+  line-height: var(--feather-base-line-height);
+  font-size: var(--feather-base-font-size);
+  color: var(--feather-color-gray-1);
 }
 
 
 /* Ordered List */
 
-.ordered-list {
+ol {
   margin: 1rem 0;
   padding: 0 0 0 2rem;
   list-style: numeric;
 }
 
 
-[dir=rtl] .ordered-list {
+[dir=rtl] ol {
   padding: 0 2rem 0 0;
 }
 
 
-.ordered-list__item {
+li {
   margin: 0;
   padding: 0;
-  line-height: var(--feather-list-line-height);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-list-font-size);
-  color: var(--feather-list-color);
+  line-height: var(--feather-base-line-height);
+  font-size: var(--feather-base-font-size);
+  color: var(--feather-color-gray-1);
 }
+
 
 /* Description List */
 
-.description-list {
+dl {
   margin: 1rem 0;
   padding: 0;
   list-style: numeric;
 }
 
-.description-list:after {
+dl:after {
   content:"";
   display:table;
   clear:both;
 }
 
 
-.description-list__term {
+dt {
   clear: left;
   float: left;
   width: 25%;
   margin: 0 0 0.25rem;
   padding: 0;
-  line-height: var(--feather-list-line-height);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-list-font-size);
-  color: var(--feather-list-color);
+  line-height: var(--feather-base-line-height);
+  font-size: var(--feather-base-font-size);
+  color: var(--feather-color-gray-1);
 }
 
-[dir=rtl] .description-list__term {
+[dir=rtl] .dt {
   clear: right;
   float: right;
 }
 
-.description-list__description {
+dd {
   margin: 0 0 0.25rem;
   padding: 0;
-  line-height: var(--feather-list-line-height);
-  font-family: var(--feather-font-family);
-  font-size: var(--feather-list-font-size);
+  line-height: var(--feather-base-line-height);
+  font-size: var(--feather-base-font-size);
   font-weight: 700;
-  color: var(--feather-list-color);
+  color: var(--feather-color-gray-1);
 }
