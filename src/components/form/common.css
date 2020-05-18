@@ -9,22 +9,22 @@ label {
 .label-text {
   display: block;
   margin: 0 0 0.5rem;
-  font-size: var(--feather-base-font-size);
-  color: var(--feather-color-gray-2);
+  font-size: var(--base-font-size);
+  color: var(--color-gray-2);
 }
 
 .form-success-message {
   display: block;
   margin: 0.125rem 0 0;
-  font-size: var(--feather-base-font-size);
-  color: var(--feather-color-success);
+  font-size: var(--base-font-size);
+  color: var(--color-success);
 }
 
 .form-error-message {
   display: block;
   margin: 0.125rem 0 0;
-  font-size: var(--feather-base-font-size);
-  color: var(--feather-color-error);
+  font-size: var(--base-font-size);
+  color: var(--color-error);
 }
 
 fieldset {
@@ -39,6 +39,6 @@ fieldset {
 legend {
   margin: 0 0 0.5rem;
   padding: 0;
-  font-size: var(--feather-base-font-size);
-  color: var(--feather-color-gray-2);
+  font-size: var(--base-font-size);
+  color: var(--color-gray-2);
 }

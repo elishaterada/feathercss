@@ -48,9 +48,9 @@ ul.reset li {
 li {
   margin: 0;
   padding: 0;
-  line-height: var(--feather-base-line-height);
-  font-size: var(--feather-base-font-size);
-  color: var(--feather-color-gray-1);
+  line-height: var(--base-line-height);
+  font-size: var(--base-font-size);
+  color: var(--color-gray-1);
 }
 
 /* Description List */
@@ -73,9 +73,9 @@ dt {
   width: 25%;
   margin: 0 0 0.25rem;
   padding: 0;
-  line-height: var(--feather-base-line-height);
-  font-size: var(--feather-base-font-size);
-  color: var(--feather-color-gray-1);
+  line-height: var(--base-line-height);
+  font-size: var(--base-font-size);
+  color: var(--color-gray-1);
 }
 
 [dir="rtl"] .dt {
@@ -86,8 +86,8 @@ dt {
 dd {
   margin: 0 0 0.25rem;
   padding: 0;
-  line-height: var(--feather-base-line-height);
-  font-size: var(--feather-base-font-size);
+  line-height: var(--base-line-height);
+  font-size: var(--base-font-size);
   font-weight: bold;
-  color: var(--feather-color-gray-1);
+  color: var(--color-gray-1);
 }

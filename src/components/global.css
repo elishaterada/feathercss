@@ -6,8 +6,8 @@
 
 body {
   min-height: 100vh;
-  font-family: var(--feather-font-family);
-  color: var(--feather-color-gray-1);
+  font-family: var(--font-family);
+  color: var(--color-gray-1);
 }
 
 img {
@@ -17,13 +17,13 @@ img {
 
 a {
   text-decoration: none;
-  color: var(--feather-color-link);
+  color: var(--color-link);
 }
 
 a:hover,
 a:focus {
   text-decoration: underline;
-  color: var(--feather-color-link-focus);
+  color: var(--color-link-focus);
 }
 
 pre {
@@ -32,6 +32,6 @@ pre {
 }
 
 ::selection {
-  background: var(--feather-color-primary);
+  background: var(--color-primary);
   color: white;
 }

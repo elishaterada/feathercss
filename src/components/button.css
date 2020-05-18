@@ -4,20 +4,20 @@
   outline: none;
   cursor: pointer;
   box-shadow: none;
-  background: var(--feather-color-gray-8);
+  background: var(--color-gray-8);
   margin: 0;
   padding: 0.75rem 2rem;
-  border: 0.063rem solid var(--feather-color-border);
-  border-radius: var(--feather-roundness-1);
-  font-size: var(--feather-base-font-size);
-  color: var(--feather-color-gray-1);
-  transition: background-color var(--feather-transition-speed) ease;
+  border: 0.063rem solid var(--color-border);
+  border-radius: var(--roundness-1);
+  font-size: var(--base-font-size);
+  color: var(--color-gray-1);
+  transition: background-color var(--transition-speed) ease;
 }
 
 .button:hover,
 .button:focus,
 .button:active {
-  background: var(--feather-color-gray-6);
+  background: var(--color-gray-6);
 }
 
 .button:disabled {
@@ -30,22 +30,22 @@
   outline: none;
   cursor: pointer;
   box-shadow: none;
-  background: var(--feather-color-primary);
+  background: var(--color-primary);
   margin: 0;
   padding: 0.75rem 2rem;
-  border: 0.063rem solid var(--feather-color-primary);
-  border-radius: var(--feather-roundness-1);
-  font-size: var(--feather-base-font-size);
+  border: 0.063rem solid var(--color-primary);
+  border-radius: var(--roundness-1);
+  font-size: var(--base-font-size);
   color: #ffffff;
-  transition: background-color var(--feather-transition-speed) ease,
-    border-color var(--feather-transition-speed) ease;
+  transition: background-color var(--transition-speed) ease,
+    border-color var(--transition-speed) ease;
 }
 
 .primary-button:hover,
 .primary-button:focus,
 .primary-button:active {
-  background: var(--feather-color-primary-focus);
-  border-color: var(--feather-color-primary-focus);
+  background: var(--color-primary-focus);
+  border-color: var(--color-primary-focus);
 }
 
 .primary-button:disabled {
@@ -61,16 +61,16 @@
   margin: 0;
   padding: 0.75rem 2rem;
   border: 0;
-  border-radius: var(--feather-roundness-1);
-  font-size: var(--feather-base-font-size);
-  color: var(--feather-color-gray-1);
-  transition: background-color var(--feather-transition-speed) ease;
+  border-radius: var(--roundness-1);
+  font-size: var(--base-font-size);
+  color: var(--color-gray-1);
+  transition: background-color var(--transition-speed) ease;
 }
 
 .clear-button:hover,
 .clear-button:focus,
 .clear-button:active {
-  background: var(--feather-color-gray-6);
+  background: var(--color-gray-6);
 }
 
 .clear-button:disabled {

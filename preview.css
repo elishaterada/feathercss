@@ -47,13 +47,13 @@
 .preview-light-theme {
   padding: 2rem;
   background: white;
-  border: 0.125rem solid var(--feather-color-gray-5);
-  border-radius: var(--feather-roundness-2);
+  border: 0.125rem solid var(--color-gray-5);
+  border-radius: var(--roundness-2);
 }
 
 .preview-dark-theme {
   padding: 2rem;
   background: black;
-  border: 0.125rem solid var(--feather-color-gray-5);
-  border-radius: var(--feather-roundness-2);
+  border: 0.125rem solid var(--color-gray-5);
+  border-radius: var(--roundness-2);
 }

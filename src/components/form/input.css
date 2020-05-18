@@ -13,12 +13,12 @@ input[type="url"] {
   display: block;
   box-shadow: none;
   padding: 0.5rem 0.75rem;
-  border-radius: var(--feather-roundness-1);
-  background: var(--feather-color-gray-8);
-  border: 0.063rem solid var(--feather-color-border);
+  border-radius: var(--roundness-1);
+  background: var(--color-gray-8);
+  border: 0.063rem solid var(--color-border);
   font-size: 1rem;
-  color: var(--feather-color-gray-2);
-  transition: border-color var(--feather-color-primary) ease;
+  color: var(--color-gray-2);
+  transition: border-color var(--color-primary) ease;
 }
 
 input[type="text"]:focus,
@@ -30,5 +30,5 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="text"]:focus,
 input[type="url"]:focus {
-  border-color: var(--feather-color-primary);
+  border-color: var(--color-primary);
 }
