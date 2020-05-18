@@ -1,10 +1,6 @@
-.form {
-  grid-gap: 2rem;
-}
-
 /* Common */
 
-.label {
+label {
   position: relative;
   display: block;
   margin: 0 0 0.5rem;
@@ -17,6 +13,12 @@
   color: var(--feather-color-gray-2);
 }
 
+.form-success-message {
+  display: block;
+  margin: 0.125rem 0 0;
+  font-size: var(--feather-base-font-size);
+  color: var(--feather-color-success);
+}
 
 .form-error-message {
   display: block;
@@ -25,7 +27,7 @@
   color: var(--feather-color-error);
 }
 
-.fieldset {
+fieldset {
   border: 0;
   padding: 0;
   -webkit-margin-start: 0;
@@ -34,54 +36,9 @@
   margin-inline-end: 0;
 }
 
-.legend {
+legend {
   margin: 0 0 0.5rem;
   padding: 0;
   font-size: var(--feather-base-font-size);
   color: var(--feather-color-gray-2);
-}
-
-
-/* Text Input */
-
-.text-input {
-  outline: none;
-  display: block;
-  box-shadow: none;
-  padding: 0.5rem 0.75rem;
-  border-radius: var(--feather-roundness-1);
-  background: var(--feather-color-gray-8);
-  border: 0.063rem solid var(--feather-color-border);
-  font-size: 1rem;
-  color: var(--feather-color-gray-2);
-  transition: border-color var(--feather-color-primary) ease;
-}
-
-.text-input:focus, .text-input:active {
-  border-color: var(--feather-color-primary);
-}
-
-.form-success-message {
-  display: block;
-  margin: 0.125rem 0 0;
-  font-size: var(--feather-base-font-size);
-  color: var(--feather-color-success);
-}
-
-/* Textarea */
-.textarea {
-  outline: none;
-  display: block;
-  box-shadow: none;
-  padding: 0.5rem 0.75rem;
-  border-radius: var(--feather-roundness-1);
-  background: var(--feather-color-gray-8);
-  border: 0.063rem solid var(--feather-color-border);
-  font-size: 1rem;
-  color: var(--feather-color-gray-2);
-  transition: border-color var(--feather-color-primary) ease;
-}
-
-.textarea:focus, .textarea:active {
-  border-color: var(--feather-color-primary);
 }

@@ -16,5 +16,22 @@ img {
 }
 
 a {
+  text-decoration: none;
   color: var(--feather-color-link);
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: var(--feather-color-link-focus);
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+::selection {
+  background: var(--feather-color-primary);
+  color: white;
 }

@@ -1,21 +1,25 @@
+/* Unordered List */
+
 ul {
   margin: 1rem 0;
   padding: 0 0 0 2rem;
   list-style: disc;
 }
 
-[dir=rtl] ul {
+[dir="rtl"] ul {
   padding: 0 2rem 0 0;
 }
 
-li {
+ul.reset {
+  display: inline-block;
   margin: 0;
   padding: 0;
-  line-height: var(--feather-base-line-height);
-  font-size: var(--feather-base-font-size);
-  color: var(--feather-color-gray-1);
+  list-style: none;
 }
 
+ul.reset li {
+  display: inline-block;
+}
 
 /* Ordered List */
 
@@ -25,12 +29,22 @@ ol {
   list-style: numeric;
 }
 
-
-[dir=rtl] ol {
+[dir="rtl"] ol {
   padding: 0 2rem 0 0;
 }
 
+ul.reset {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
+ul.reset li {
+  display: inline-block;
+}
+
+/* List Item */
 li {
   margin: 0;
   padding: 0;
@@ -38,7 +52,6 @@ li {
   font-size: var(--feather-base-font-size);
   color: var(--feather-color-gray-1);
 }
-
 
 /* Description List */
 
@@ -49,11 +62,10 @@ dl {
 }
 
 dl:after {
-  content:"";
-  display:table;
-  clear:both;
+  content: "";
+  display: table;
+  clear: both;
 }
-
 
 dt {
   clear: left;
@@ -66,7 +78,7 @@ dt {
   color: var(--feather-color-gray-1);
 }
 
-[dir=rtl] .dt {
+[dir="rtl"] .dt {
   clear: right;
   float: right;
 }
@@ -76,6 +88,6 @@ dd {
   padding: 0;
   line-height: var(--feather-base-line-height);
   font-size: var(--feather-base-font-size);
-  font-weight: 700;
+  font-weight: bold;
   color: var(--feather-color-gray-1);
 }

@@ -1,8 +1,10 @@
+/* Typography */
+
 .heading-1 {
   margin: 0 0 1rem;
   line-height: 1.6;
   font-size: 3rem; /* 48px */
-  font-weight: 400;
+  font-weight: normal;
   color: var(--feather-color-gray-0);
 }
 
@@ -10,7 +12,7 @@
   margin: 0 0 1rem;
   line-height: 1.6;
   font-size: 2.25rem; /* 36px */
-  font-weight: 400;
+  font-weight: normal;
   color: var(--feather-color-gray-0);
 }
 
@@ -18,7 +20,7 @@
   margin: 0 0 1rem;
   line-height: 1.6;
   font-size: 1.5rem; /* 24px */
-  font-weight: 400;
+  font-weight: normal;
   color: var(--feather-color-gray-1);
 }
 
@@ -26,7 +28,7 @@
   margin: 0 0 1rem;
   line-height: 1.6;
   font-size: 1.313rem; /* 21px */
-  font-weight: 400;
+  font-weight: normal;
   color: var(--feather-color-gray-1);
 }
 
@@ -34,7 +36,7 @@
   margin: 0 0 1rem;
   line-height: 1.6;
   font-size: 1.125rem; /* 18px */
-  font-weight: 400;
+  font-weight: normal;
   color: var(--feather-color-gray-2);
 }
 
@@ -42,11 +44,11 @@
   margin: 0 0 1rem;
   line-height: 1.6;
   font-size: 1rem; /* 16px */
-  font-weight: 400;
+  font-weight: normal;
   color: var(--feather-color-gray-2);
 }
 
-.paragraph {
+p {
   margin: 0 0 1rem;
   line-height: var(--feather-base-line-height);
   font-size: var(--feather-base-font-size);

@@ -3,7 +3,7 @@
 .preview-hero-title {
   padding: 1rem 2rem;
   font-size: 2.25rem;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .preview-nav {
@@ -13,7 +13,7 @@
 .preview-title {
   margin: 0 0 2rem;
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .preview-section {

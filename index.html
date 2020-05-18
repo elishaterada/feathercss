@@ -1,226 +1,261 @@
 <html lang="en">
-<head>
-  <meta charSet="utf-8" />
-  <meta
-    name="viewport"
-    content="initial-scale=1.0, width=device-width"
-  />
-  <!-- <link rel="stylesheet" href="dist/feather.min.css" /> -->
-  <link rel="stylesheet" href="src/components/variables.css" />
-  <link rel="stylesheet" href="src/components/global.css" />
-  <link rel="stylesheet" href="src/components/typography.css" />
-  <link rel="stylesheet" href="src/components/blockquote.css" />
-  <link rel="stylesheet" href="src/components/button.css" />
-  <link rel="stylesheet" href="src/components/list.css" />
-  <link rel="stylesheet" href="src/components/form/common.css" />
-  <link rel="stylesheet" href="src/components/form/select.css" />
-  <link rel="stylesheet" href="src/components/form/checkbox.css" />
-  <link rel="stylesheet" href="src/components/form/radio.css" />
-  <link rel="stylesheet" href="src/components/table.css" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <!-- <link rel="stylesheet" href="dist/feather.min.css" /> -->
+    <link rel="stylesheet" href="src/components/variables.css" />
+    <link rel="stylesheet" href="src/components/global.css" />
+    <link rel="stylesheet" href="src/components/typography.css" />
+    <link rel="stylesheet" href="src/components/blockquote.css" />
+    <link rel="stylesheet" href="src/components/button.css" />
+    <link rel="stylesheet" href="src/components/list.css" />
+    <link rel="stylesheet" href="src/components/form/common.css" />
+    <link rel="stylesheet" href="src/components/form/input.css" />
+    <link rel="stylesheet" href="src/components/form/textarea.css" />
+    <link rel="stylesheet" href="src/components/form/select.css" />
+    <link rel="stylesheet" href="src/components/form/checkbox.css" />
+    <link rel="stylesheet" href="src/components/form/radio.css" />
+    <link rel="stylesheet" href="src/components/table.css" />
 
-  <!-- For Preview Purpose Only -->
-  <link rel="stylesheet" href="../preview.css" />
-</head>
-<body>
-<main>
-  <h1 class="preview-hero-title">FeatherCSS Preview</h1>
+    <!-- For Preview Purpose Only -->
+    <link rel="stylesheet" href="../preview.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="preview-hero-title">FeatherCSS Preview</h1>
 
-  <nav class="preview-nav">
-    <ul>
-      <li><a href="#typography">Typography</a></li>
-      <li><a href="#blockquote">Blockquote</a></li>
-      <li><a href="#buttons">Buttons</a></li>
-      <li><a href="#list">List</a></li>
-      <li><a href="#form">Form</a></li>
-      <li><a href="#table">Table</a></li>
-    </ul>
-  </nav>
-
-  <section id="typography" class="preview-section">
-    <h2 class="preview-title">Typography</h2>
-    <div class="preview-theme-group">
-      <div class="preview-light-theme">
-        <h1 class="heading-1">Heading 1</h1>
-        <h2 class="heading-2">Heading 2</h2>
-        <h3 class="heading-3">Heading 3</h3>
-        <h4 class="heading-4">Heading 4</h4>
-        <h5 class="heading-5">Heading 5</h5>
-        <h6 class="heading-6">Heading 6</h6>
-        <p class="paragraph">Paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lacus eu nulla
-                             porta sagittis non nec dui. Vivamus iaculis aliquet diam. Proin eu ullamcorper metus, at
-                             imperdiet ante.</p>
-      </div>
-      <div class="preview-light-theme" dir="rtl">
-        <h1 class="heading-1">Heading 1</h1>
-        <h2 class="heading-2">Heading 2</h2>
-        <h3 class="heading-3">Heading 3</h3>
-        <h4 class="heading-4">Heading 4</h4>
-        <h5 class="heading-5">Heading 5</h5>
-        <h6 class="heading-6">Heading 6</h6>
-        <p class="paragraph">Paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lacus eu nulla
-                             porta sagittis non nec dui. Vivamus iaculis aliquet diam. Proin eu ullamcorper metus, at
-                             imperdiet ante.</p>
-      </div>
-      <div class="preview-dark-theme" data-theme="dark">
-        <h1 class="heading-1">Heading 1</h1>
-        <h2 class="heading-2">Heading 2</h2>
-        <h3 class="heading-3">Heading 3</h3>
-        <h4 class="heading-4">Heading 4</h4>
-        <h5 class="heading-5">Heading 5</h5>
-        <h6 class="heading-6">Heading 6</h6>
-        <p class="paragraph">Paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lacus eu nulla
-                             porta sagittis non nec dui. Vivamus iaculis aliquet diam. Proin eu ullamcorper metus, at
-                             imperdiet ante.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="blockquote" class="preview-section">
-    <h2 class="preview-title">Blockquote</h2>
-    <div class="preview-theme-group">
-      <div class="preview-light-theme">
-        <blockquote class="blockquote">
-          This changed my life, literally.
-        </blockquote>
-      </div>
-      <div class="preview-light-theme" dir="rtl">
-        <blockquote class="blockquote">
-          This changed my life, literally.
-        </blockquote>
-      </div>
-      <div class="preview-dark-theme" data-theme="dark">
-        <blockquote class="blockquote">
-          This changed my life, literally.
-        </blockquote>
-      </div>
-    </div>
-  </section>
-
-  <section id="buttons" class="preview-section">
-    <h2 class="preview-title">Buttons</h2>
-    <div class="preview-theme-group">
-      <div class="preview-light-theme preview-buttons">
-        <button class="button">
-          Default Button
-        </button>
-        <button class="primary-button">
-          Primary Button
-        </button>
-        <button class="clear-button">
-          Clear Button
-        </button>
-      </div>
-      <div class="preview-light-theme preview-buttons" dir="rtl">
-        <button class="button">
-          Default Button
-        </button>
-        <button class="primary-button">
-          Primary Button
-        </button>
-        <button class="clear-button">
-          Clear Button
-        </button>
-      </div>
-      <div class="preview-dark-theme preview-buttons" data-theme="dark">
-        <button class="button">
-          Default Button
-        </button>
-        <button class="primary-button">
-          Primary Button
-        </button>
-        <button class="clear-button">
-          Clear Button
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <section id="list" class="preview-section">
-    <h2 class="preview-title">List</h2>
-    <div class="preview-theme-group">
-      <div class="preview-light-theme">
-        <ul class="unordered-list">
-          <li class="unordered-list__item">Waffles</li>
-          <li class="unordered-list__item">Pancakes</li>
+      <nav class="preview-nav">
+        <ul>
+          <li><a href="#typography">Typography</a></li>
+          <li><a href="#blockquote">Blockquote</a></li>
+          <li><a href="#buttons">Buttons</a></li>
+          <li><a href="#list">List</a></li>
+          <li><a href="#form">Form</a></li>
+          <li><a href="#table">Table</a></li>
         </ul>
+      </nav>
 
-        <ol class="ordered-list">
-          <li class="ordered-list__item">Add 100g flour into a bowl</li>
-          <li class="unordered-list__item">Add 2x eggs into the bowl and mix</li>
-        </ol>
+      <section id="typography" class="preview-section">
+        <h2 class="preview-title">Typography</h2>
+        <div class="preview-theme-group">
+          <div class="preview-light-theme">
+            <h1 class="heading-1">Heading 1</h1>
+            <h2 class="heading-2">Heading 2</h2>
+            <h3 class="heading-3">Heading 3</h3>
+            <h4 class="heading-4">Heading 4</h4>
+            <h5 class="heading-5">Heading 5</h5>
+            <h6 class="heading-6">Heading 6</h6>
+            <p>
+              Paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Duis id lacus eu nulla porta sagittis non nec dui. Vivamus iaculis
+              aliquet diam. Proin eu ullamcorper metus, at imperdiet ante.
+            </p>
+          </div>
+          <div class="preview-light-theme" dir="rtl">
+            <h1 class="heading-1">Heading 1</h1>
+            <h2 class="heading-2">Heading 2</h2>
+            <h3 class="heading-3">Heading 3</h3>
+            <h4 class="heading-4">Heading 4</h4>
+            <h5 class="heading-5">Heading 5</h5>
+            <h6 class="heading-6">Heading 6</h6>
+            <p>
+              Paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Duis id lacus eu nulla porta sagittis non nec dui. Vivamus iaculis
+              aliquet diam. Proin eu ullamcorper metus, at imperdiet ante.
+            </p>
+          </div>
+          <div class="preview-dark-theme" data-theme="dark">
+            <h1 class="heading-1">Heading 1</h1>
+            <h2 class="heading-2">Heading 2</h2>
+            <h3 class="heading-3">Heading 3</h3>
+            <h4 class="heading-4">Heading 4</h4>
+            <h5 class="heading-5">Heading 5</h5>
+            <h6 class="heading-6">Heading 6</h6>
+            <p>
+              Paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Duis id lacus eu nulla porta sagittis non nec dui. Vivamus iaculis
+              aliquet diam. Proin eu ullamcorper metus, at imperdiet ante.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        <dl class="description-list">
-          <dt class="description-list__term">Room Size
-          <dt>
-          <dd class="description-list__description">1,200 SQFT</dd>
-          <dt class="description-list__term">Bathrooms
-          <dt>
-          <dd class="description-list__description">2</dd>
-        </dl>
-      </div>
-      <div class="preview-light-theme" dir="rtl">
-        <ul class="unordered-list">
-          <li class="unordered-list__item">Waffles</li>
-          <li class="unordered-list__item">Pancakes</li>
-        </ul>
+      <section id="blockquote" class="preview-section">
+        <h2 class="preview-title">Blockquote</h2>
+        <div class="preview-theme-group">
+          <div class="preview-light-theme">
+            <blockquote>
+              This changed my life, literally.
+            </blockquote>
+          </div>
+          <div class="preview-light-theme" dir="rtl">
+            <blockquote>
+              This changed my life, literally.
+            </blockquote>
+          </div>
+          <div class="preview-dark-theme" data-theme="dark">
+            <blockquote>
+              This changed my life, literally.
+            </blockquote>
+          </div>
+        </div>
+      </section>
 
-        <ol class="ordered-list">
-          <li class="ordered-list__item">Add 100g flour into a bowl</li>
-          <li class="unordered-list__item">Add 2x eggs into the bowl and mix</li>
-        </ol>
+      <section id="buttons" class="preview-section">
+        <h2 class="preview-title">Buttons</h2>
+        <div class="preview-theme-group">
+          <div class="preview-light-theme preview-buttons">
+            <button class="button">
+              Default Button
+            </button>
+            <button class="primary-button">
+              Primary Button
+            </button>
+            <button class="clear-button">
+              Clear Button
+            </button>
+          </div>
+          <div class="preview-light-theme preview-buttons" dir="rtl">
+            <button class="button">
+              Default Button
+            </button>
+            <button class="primary-button">
+              Primary Button
+            </button>
+            <button class="clear-button">
+              Clear Button
+            </button>
+          </div>
+          <div class="preview-dark-theme preview-buttons" data-theme="dark">
+            <button class="button">
+              Default Button
+            </button>
+            <button class="primary-button">
+              Primary Button
+            </button>
+            <button class="clear-button">
+              Clear Button
+            </button>
+          </div>
+        </div>
+      </section>
 
-        <dl class="description-list">
-          <dt class="description-list__term">Room Size
-          <dt>
-          <dd class="description-list__description">1,200 SQFT</dd>
-          <dt class="description-list__term">Bathrooms
-          <dt>
-          <dd class="description-list__description">2</dd>
-        </dl>
-      </div>
-      <div class="preview-dark-theme" data-theme="dark">
-        <ul class="unordered-list">
-          <li class="unordered-list__item">Waffles</li>
-          <li class="unordered-list__item">Pancakes</li>
-        </ul>
+      <section id="list" class="preview-section">
+        <h2 class="preview-title">List</h2>
+        <div class="preview-theme-group">
+          <div class="preview-light-theme">
+            <ul>
+              <li>Waffles</li>
+              <li>Pancakes</li>
+            </ul>
 
-        <ol class="ordered-list">
-          <li class="ordered-list__item">Add 100g flour into a bowl</li>
-          <li class="unordered-list__item">Add 2x eggs into the bowl and mix</li>
-        </ol>
+            <ol>
+              <li>Add 100g flour into a bowl</li>
+              <li>Add 2x eggs into the bowl and mix</li>
+            </ol>
 
-        <dl class="description-list">
-          <dt class="description-list__term">Room Size
-          <dt>
-          <dd class="description-list__description">1,200 SQFT</dd>
-          <dt class="description-list__term">Bathrooms
-          <dt>
-          <dd class="description-list__description">2</dd>
-        </dl>
-      </div>
-    </div>
-  </section>
+            <dl>
+              <dt>Room Size</dt>
+              <dt></dt>
+              <dd>1,200 SQFT</dd>
+              <dt>Bathrooms</dt>
+              <dt></dt>
+              <dd>2</dd>
+            </dl>
 
-  <section id="form" class="preview-section">
-    <h2 class="preview-title">Form</h2>
-    <div class="preview-theme-group">
-      <div class="preview-light-theme">
-        <form class="form preview-form">
-          <label class="label" for="username">
-            <span class="label-text">Username</span>
-            <input class="text-input" type="text" id="username" name="username" placeholder="Enter username here">
-            <span class="form-success-message" aria-live="polite">Your username is available</span>
-          </label>
+            <nav>
+              <ul class="reset">
+                <li><a href="#list">Link 1</a></li>
+                <li><a href="#list">Link 2</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="preview-light-theme" dir="rtl">
+            <ul>
+              <li>Waffles</li>
+              <li>Pancakes</li>
+            </ul>
 
-          <label class="label" for="password">
-            <span class="label-text">Password</span>
-            <input class="text-input" type="password" id="password" name="password">
-            <span class="form-error-message" aria-live="polite">Password is too weak</span>
-          </label>
+            <ol>
+              <li>Add 100g flour into a bowl</li>
+              <li>Add 2x eggs into the bowl and mix</li>
+            </ol>
 
-          <label class="label" for="theme">
-            <span class="label-text">Theme</span>
-            <span class="select">
+            <dl>
+              <dt>Room Size</dt>
+              <dt></dt>
+              <dd>1,200 SQFT</dd>
+              <dt>Bathrooms</dt>
+              <dt></dt>
+              <dd>2</dd>
+            </dl>
+
+            <nav>
+              <ul class="reset">
+                <li><a href="#list">Link 1</a></li>
+                <li><a href="#list">Link 2</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="preview-dark-theme" data-theme="dark">
+            <ul>
+              <li>Waffles</li>
+              <li>Pancakes</li>
+            </ul>
+
+            <ol>
+              <li>Add 100g flour into a bowl</li>
+              <li>Add 2x eggs into the bowl and mix</li>
+            </ol>
+
+            <dl>
+              <dt>Room Size</dt>
+              <dt></dt>
+              <dd>1,200 SQFT</dd>
+              <dt>Bathrooms</dt>
+              <dt></dt>
+              <dd>2</dd>
+            </dl>
+
+            <nav>
+              <ul class="reset">
+                <li><a href="#list">Link 1</a></li>
+                <li><a href="#list">Link 2</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <section id="form" class="preview-section">
+        <h2 class="preview-title">Form</h2>
+        <div class="preview-theme-group">
+          <div class="preview-light-theme">
+            <form class="preview-form">
+              <label for="username">
+                <span class="label-text">Username</span>
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  placeholder="Enter username here"
+                />
+                <span class="form-success-message" aria-live="polite"
+                  >Your username is available</span
+                >
+              </label>
+
+              <label for="password">
+                <span class="label-text">Password</span>
+                <input type="password" id="password" name="password" />
+                <span class="form-error-message" aria-live="polite"
+                  >Password is too weak</span
+                >
+              </label>
+
+              <label for="theme">
+                <span class="label-text">Theme</span>
+                <span class="select">
                   <select id="theme" class="select-input">
                     <option>Please pick one</option>
                     <option value="light">Light</option>
@@ -228,65 +263,102 @@
                     <option value="automatic">Automatic</option>
                   </select>
                 </span>
-          </label>
+              </label>
 
-          <fieldset class="fieldset">
-            <legend class="legend">Choose your favorite animal</legend>
-            <label class="label" for="animals-option-cat">
-              <input class="radio-input" id="animals-option-cat" type="radio" name="animals-option">
-              <span class="radio-label">Cat</span>
-            </label>
-            <label class="label" for="animals-option-dog">
-              <input class="radio-input" id="animals-option-dog" type="radio" name="animals-option">
-              <span class="radio-label">Dog</span>
-            </label>
-            <label class="label" for="animals-option-capybara">
-              <input class="radio-input" id="animals-option-capybara" type="radio" name="animals-option">
-              <span class="radio-label">Capybara</span>
-            </label>
-          </fieldset>
+              <fieldset>
+                <legend>Choose your favorite animal</legend>
+                <label for="animals-option-cat">
+                  <input
+                    id="animals-option-cat"
+                    type="radio"
+                    name="animals-option"
+                  />
+                  <span class="radio-label">Cat</span>
+                </label>
+                <label for="animals-option-dog">
+                  <input
+                    id="animals-option-dog"
+                    type="radio"
+                    name="animals-option"
+                  />
+                  <span class="radio-label">Dog</span>
+                </label>
+                <label for="animals-option-capybara">
+                  <input
+                    id="animals-option-capybara"
+                    type="radio"
+                    name="animals-option"
+                  />
+                  <span class="radio-label">Capybara</span>
+                </label>
+              </fieldset>
 
-          <fieldset class="fieldset">
-            <legend class="legend">Pick your favorite drink(s)</legend>
-            <label class="label" for="drinks-option-coffee">
-              <input class="checkbox-input" id="drinks-option-coffee" type="checkbox" name="drinks-option">
-              <span class="checkbox-label">Coffee</span>
-            </label>
-            <label class="label" for="drinks-option-tea">
-              <input class="checkbox-input" id="drinks-option-tea" type="checkbox" name="drinks-option">
-              <span class="checkbox-label">Tea</span>
-            </label>
-            <label class="label" for="drinks-option-beer">
-              <input class="checkbox-input" id="drinks-option-beer" type="checkbox" name="drinks-option">
-              <span class="checkbox-label">Beer</span>
-            </label>
-          </fieldset>
+              <fieldset>
+                <legend>Pick your favorite drink(s)</legend>
+                <label for="drinks-option-coffee">
+                  <input
+                    id="drinks-option-coffee"
+                    type="checkbox"
+                    name="drinks-option"
+                  />
+                  <span>Coffee</span>
+                </label>
+                <label for="drinks-option-tea">
+                  <input
+                    id="drinks-option-tea"
+                    type="checkbox"
+                    name="drinks-option"
+                  />
+                  <span>Tea</span>
+                </label>
+                <label for="drinks-option-beer">
+                  <input
+                    id="drinks-option-beer"
+                    type="checkbox"
+                    name="drinks-option"
+                  />
+                  <span>Beer</span>
+                </label>
+              </fieldset>
 
-          <label class="label" for="comment">
-            <span class="label-text">Additional Comment</span>
-            <textarea class="textarea" id="comment" placeholder="Type your comment" rows="3"></textarea>
-          </label>
+              <label for="comment">
+                <span class="label-text">Additional Comment</span>
+                <textarea
+                  id="comment"
+                  placeholder="Type your comment"
+                  rows="3"
+                ></textarea>
+              </label>
 
-          <button class="primary-button" type="submit">Send</button>
-        </form>
-      </div>
-      <div class="preview-light-theme" dir="rtl">
-        <form class="form preview-form">
-          <label class="label" for="username">
-            <span class="label-text">Username</span>
-            <input class="text-input" type="text" id="username-rtl" name="username-rtl" placeholder="Enter username here">
-            <span class="form-success-message" aria-live="polite">Your username is available</span>
-          </label>
+              <button class="primary-button" type="submit">Send</button>
+            </form>
+          </div>
+          <div class="preview-light-theme" dir="rtl">
+            <form class="preview-form">
+              <label for="username">
+                <span class="label-text">Username</span>
+                <input
+                  type="text"
+                  id="username-rtl"
+                  name="username-rtl"
+                  placeholder="Enter username here"
+                />
+                <span class="form-success-message" aria-live="polite"
+                  >Your username is available</span
+                >
+              </label>
 
-          <label class="label" for="password-rtl">
-            <span class="label-text">Password</span>
-            <input class="text-input" type="password" id="password-rtl" name="password-rtl">
-            <span class="form-error-message" aria-live="polite">Password is too weak</span>
-          </label>
+              <label for="password-rtl">
+                <span class="label-text">Password</span>
+                <input type="password" id="password-rtl" name="password-rtl" />
+                <span class="form-error-message" aria-live="polite"
+                  >Password is too weak</span
+                >
+              </label>
 
-          <label class="label" for="theme-rtl">
-            <span class="label-text">Theme</span>
-            <span class="select">
+              <label for="theme-rtl">
+                <span class="label-text">Theme</span>
+                <span class="select">
                   <select id="theme-rtl" class="select-input">
                     <option>Please pick one</option>
                     <option value="light">Light</option>
@@ -294,65 +366,106 @@
                     <option value="automatic">Automatic</option>
                   </select>
                 </span>
-          </label>
+              </label>
 
-          <fieldset class="fieldset">
-            <legend class="legend">Choose your favorite animal</legend>
-            <label class="label" for="animals-option-cat-rtl">
-              <input class="radio-input" id="animals-option-cat-rtl" type="radio" name="animals-option">
-              <span class="radio-label">Cat</span>
-            </label>
-            <label class="label" for="animals-option-dog-rtl">
-              <input class="radio-input" id="animals-option-dog-rtl" type="radio" name="animals-option">
-              <span class="radio-label">Dog</span>
-            </label>
-            <label class="label" for="animals-option-capybara-rtl">
-              <input class="radio-input" id="animals-option-capybara-rtl" type="radio" name="animals-option">
-              <span class="radio-label">Capybara</span>
-            </label>
-          </fieldset>
+              <fieldset>
+                <legend>Choose your favorite animal</legend>
+                <label for="animals-option-cat-rtl">
+                  <input
+                    id="animals-option-cat-rtl"
+                    type="radio"
+                    name="animals-option"
+                  />
+                  <span class="radio-label">Cat</span>
+                </label>
+                <label for="animals-option-dog-rtl">
+                  <input
+                    id="animals-option-dog-rtl"
+                    type="radio"
+                    name="animals-option"
+                  />
+                  <span class="radio-label">Dog</span>
+                </label>
+                <label for="animals-option-capybara-rtl">
+                  <input
+                    id="animals-option-capybara-rtl"
+                    type="radio"
+                    name="animals-option"
+                  />
+                  <span class="radio-label">Capybara</span>
+                </label>
+              </fieldset>
 
-          <fieldset class="fieldset">
-            <legend class="legend">Pick your favorite drink(s)</legend>
-            <label class="label" for="drinks-option-coffee-rtl">
-              <input class="checkbox-input" id="drinks-option-coffee-rtl" type="checkbox" name="drinks-option">
-              <span class="checkbox-label">Coffee</span>
-            </label>
-            <label class="label" for="drinks-option-tea-rtl">
-              <input class="checkbox-input" id="drinks-option-tea-rtl" type="checkbox" name="drinks-option">
-              <span class="checkbox-label">Tea</span>
-            </label>
-            <label class="label" for="drinks-option-beer-rtl">
-              <input class="checkbox-input" id="drinks-option-beer-rtl" type="checkbox" name="drinks-option">
-              <span class="checkbox-label">Beer</span>
-            </label>
-          </fieldset>
+              <fieldset>
+                <legend>Pick your favorite drink(s)</legend>
+                <label for="drinks-option-coffee-rtl">
+                  <input
+                    id="drinks-option-coffee-rtl"
+                    type="checkbox"
+                    name="drinks-option"
+                  />
+                  <span>Coffee</span>
+                </label>
+                <label for="drinks-option-tea-rtl">
+                  <input
+                    id="drinks-option-tea-rtl"
+                    type="checkbox"
+                    name="drinks-option"
+                  />
+                  <span>Tea</span>
+                </label>
+                <label for="drinks-option-beer-rtl">
+                  <input
+                    id="drinks-option-beer-rtl"
+                    type="checkbox"
+                    name="drinks-option"
+                  />
+                  <span>Beer</span>
+                </label>
+              </fieldset>
 
-          <label class="label" for="comment-rtl">
-            <span class="label-text">Additional Comment</span>
-            <textarea class="textarea" id="comment-rtl" placeholder="Type your comment" rows="3"></textarea>
-          </label>
+              <label for="comment-rtl">
+                <span class="label-text">Additional Comment</span>
+                <textarea
+                  id="comment-rtl"
+                  placeholder="Type your comment"
+                  rows="3"
+                ></textarea>
+              </label>
 
-          <button class="primary-button" type="submit">Send</button>
-        </form>
-      </div>
-      <div class="preview-dark-theme" data-theme="dark">
-        <form class="form preview-form">
-          <label class="label" for="username-dark">
-            <span class="label-text">Username</span>
-            <input class="text-input" type="text" id="username-dark" name="username-dark" placeholder="Enter username here">
-            <span class="form-success-message" aria-live="polite">Your username is available</span>
-          </label>
+              <button class="primary-button" type="submit">Send</button>
+            </form>
+          </div>
+          <div class="preview-dark-theme" data-theme="dark">
+            <form class="preview-form">
+              <label for="username-dark">
+                <span class="label-text">Username</span>
+                <input
+                  type="text"
+                  id="username-dark"
+                  name="username-dark"
+                  placeholder="Enter username here"
+                />
+                <span class="form-success-message" aria-live="polite"
+                  >Your username is available</span
+                >
+              </label>
 
-          <label class="label" for="password-dark">
-            <span class="label-text">Password</span>
-            <input class="text-input" type="password" id="password-dark" name="password-dark">
-            <span class="form-error-message" aria-live="polite">Password is too weak</span>
-          </label>
+              <label for="password-dark">
+                <span class="label-text">Password</span>
+                <input
+                  type="password"
+                  id="password-dark"
+                  name="password-dark"
+                />
+                <span class="form-error-message" aria-live="polite"
+                  >Password is too weak</span
+                >
+              </label>
 
-          <label class="label" for="theme-dark">
-            <span class="label-text">Theme</span>
-            <span class="select">
+              <label for="theme-dark">
+                <span class="label-text">Theme</span>
+                <span class="select">
                   <select id="theme-dark" class="select-input">
                     <option>Please pick one</option>
                     <option value="light">Light</option>
@@ -360,152 +473,204 @@
                     <option value="automatic">Automatic</option>
                   </select>
                 </span>
-          </label>
+              </label>
 
-          <fieldset class="fieldset">
-            <legend class="legend">Choose your favorite animal</legend>
-            <label class="label" for="animals-option-cat-dark">
-              <input class="radio-input" id="animals-option-cat-dark" type="radio" name="animals-option">
-              <span class="radio-label">Cat</span>
-            </label>
-            <label class="label" for="animals-option-dog-dark">
-              <input class="radio-input" id="animals-option-dog-dark" type="radio" name="animals-option">
-              <span class="radio-label">Dog</span>
-            </label>
-            <label class="label" for="animals-option-capybara-dark">
-              <input class="radio-input" id="animals-option-capybara-dark" type="radio" name="animals-option">
-              <span class="radio-label">Capybara</span>
-            </label>
-          </fieldset>
+              <fieldset>
+                <legend>Choose your favorite animal</legend>
+                <label for="animals-option-cat-dark">
+                  <input
+                    id="animals-option-cat-dark"
+                    type="radio"
+                    name="animals-option"
+                  />
+                  <span class="radio-label">Cat</span>
+                </label>
+                <label for="animals-option-dog-dark">
+                  <input
+                    id="animals-option-dog-dark"
+                    type="radio"
+                    name="animals-option"
+                  />
+                  <span class="radio-label">Dog</span>
+                </label>
+                <label for="animals-option-capybara-dark">
+                  <input
+                    id="animals-option-capybara-dark"
+                    type="radio"
+                    name="animals-option"
+                  />
+                  <span class="radio-label">Capybara</span>
+                </label>
+              </fieldset>
 
-          <fieldset class="fieldset">
-            <legend class="legend">Pick your favorite drink(s)</legend>
-            <label class="label" for="drinks-option-coffee-dark">
-              <input class="checkbox-input" id="drinks-option-coffee-dark" type="checkbox" name="drinks-option">
-              <span class="checkbox-label">Coffee</span>
-            </label>
-            <label class="label" for="drinks-option-tea-dark">
-              <input class="checkbox-input" id="drinks-option-tea-dark" type="checkbox" name="drinks-option">
-              <span class="checkbox-label">Tea</span>
-            </label>
-            <label class="label" for="drinks-option-beer-dark">
-              <input class="checkbox-input" id="drinks-option-beer-dark" type="checkbox" name="drinks-option">
-              <span class="checkbox-label">Beer</span>
-            </label>
-          </fieldset>
+              <fieldset>
+                <legend>Pick your favorite drink(s)</legend>
+                <label for="drinks-option-coffee-dark">
+                  <input
+                    id="drinks-option-coffee-dark"
+                    type="checkbox"
+                    name="drinks-option"
+                  />
+                  <span>Coffee</span>
+                </label>
+                <label for="drinks-option-tea-dark">
+                  <input
+                    id="drinks-option-tea-dark"
+                    type="checkbox"
+                    name="drinks-option"
+                  />
+                  <span>Tea</span>
+                </label>
+                <label for="drinks-option-beer-dark">
+                  <input
+                    id="drinks-option-beer-dark"
+                    type="checkbox"
+                    name="drinks-option"
+                  />
+                  <span>Beer</span>
+                </label>
+              </fieldset>
 
-          <label class="label" for="comment-dark">
-            <span class="label-text">Additional Comment</span>
-            <textarea class="textarea" id="comment-dark" placeholder="Type your comment" rows="3"></textarea>
-          </label>
+              <label for="comment-dark">
+                <span class="label-text">Additional Comment</span>
+                <textarea
+                  id="comment-dark"
+                  placeholder="Type your comment"
+                  rows="3"
+                ></textarea>
+              </label>
 
-          <button class="primary-button" type="submit">Send</button>
-        </form>
-      </div>
-    </div>
-  </section>
+              <button class="primary-button" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
 
-  <section id="table" class="preview-section">
-    <h2 class="preview-title">Table</h2>
-    <div class="preview-theme-group">
-      <div class="preview-light-theme">
-        <table class="table">
-          <thead>
-          <tr class="tr">
-            <th class="th">Name</th>
-            <th class="th">Serving</th>
-            <th class="th">Caffeine</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr class="tr">
-            <td class="td">Coffee</td>
-            <td class="td">1 cup (8 fl oz)(237 g)</td>
-            <td class="td">95 mg</td>
-          </tr>
-          <tr class="tr">
-            <td class="td">Tea</td>
-            <td class="td">1 cup (8 fl oz)(238 g)</td>
-            <td class="td">22—28 mg</td>
-          </tr>
-          </tbody>
-          <tfoot>
-          <tr class="tr">
-            <td class="td" colspan="3">
-              Source: <a class="link" href="https://en.wikipedia.org/wiki/Coffee" rel="noopener noreferer">Coffee</a>, <a class="link"
-              href="https://en.wikipedia.org/wiki/Tea" rel="noopener noreferer"
-            >Tea</a>
-            </td>
-          </tr>
-          </tfoot>
-        </table>
-      </div>
-      <div class="preview-light-theme" dir="rtl">
-        <table class="table">
-          <thead>
-          <tr class="tr">
-            <th class="th">Name</th>
-            <th class="th">Serving</th>
-            <th class="th">Caffeine</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr class="tr">
-            <td class="td">Coffee</td>
-            <td class="td">1 cup (8 fl oz)(237 g)</td>
-            <td class="td">95 mg</td>
-          </tr>
-          <tr class="tr">
-            <td class="td">Tea</td>
-            <td class="td">1 cup (8 fl oz)(238 g)</td>
-            <td class="td">22—28 mg</td>
-          </tr>
-          </tbody>
-          <tfoot>
-          <tr class="tr">
-            <td class="td" colspan="3">
-              Source: <a class="link" href="https://en.wikipedia.org/wiki/Coffee" rel="noopener noreferer">Coffee</a>, <a class="link"
-              href="https://en.wikipedia.org/wiki/Tea" rel="noopener noreferer"
-            >Tea</a>
-            </td>
-          </tr>
-          </tfoot>
-        </table>
-      </div>
-      <div class="preview-dark-theme" data-theme="dark">
-        <table class="table">
-          <thead>
-          <tr class="tr">
-            <th class="th">Name</th>
-            <th class="th">Serving</th>
-            <th class="th">Caffeine</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr class="tr">
-            <td class="td">Coffee</td>
-            <td class="td">1 cup (8 fl oz)(237 g)</td>
-            <td class="td">95 mg</td>
-          </tr>
-          <tr class="tr">
-            <td class="td">Tea</td>
-            <td class="td">1 cup (8 fl oz)(238 g)</td>
-            <td class="td">22—28 mg</td>
-          </tr>
-          </tbody>
-          <tfoot>
-          <tr class="tr">
-            <td class="td" colspan="3">
-              Source: <a class="link" href="https://en.wikipedia.org/wiki/Coffee" rel="noopener noreferer">Coffee</a>, <a class="link"
-              href="https://en.wikipedia.org/wiki/Tea" rel="noopener noreferer"
-            >Tea</a>
-            </td>
-          </tr>
-          </tfoot>
-        </table>
-      </div>
-    </div>
-  </section>
-</main>
-</body>
+      <section id="table" class="preview-section">
+        <h2 class="preview-title">Table</h2>
+        <div class="preview-theme-group">
+          <div class="preview-light-theme">
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Serving</th>
+                  <th>Caffeine</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Coffee</td>
+                  <td>1 cup (8 fl oz)(237 g)</td>
+                  <td>95 mg</td>
+                </tr>
+                <tr>
+                  <td>Tea</td>
+                  <td>1 cup (8 fl oz)(238 g)</td>
+                  <td>22—28 mg</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3">
+                    Source:
+                    <a
+                      href="https://en.wikipedia.org/wiki/Coffee"
+                      rel="noopener noreferer"
+                      >Coffee</a
+                    >,
+                    <a
+                      href="https://en.wikipedia.org/wiki/Tea"
+                      rel="noopener noreferer"
+                      >Tea</a
+                    >
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <div class="preview-light-theme" dir="rtl">
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Serving</th>
+                  <th>Caffeine</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Coffee</td>
+                  <td>1 cup (8 fl oz)(237 g)</td>
+                  <td>95 mg</td>
+                </tr>
+                <tr>
+                  <td>Tea</td>
+                  <td>1 cup (8 fl oz)(238 g)</td>
+                  <td>22—28 mg</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3">
+                    Source:
+                    <a
+                      href="https://en.wikipedia.org/wiki/Coffee"
+                      rel="noopener noreferer"
+                      >Coffee</a
+                    >,
+                    <a
+                      href="https://en.wikipedia.org/wiki/Tea"
+                      rel="noopener noreferer"
+                      >Tea</a
+                    >
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <div class="preview-dark-theme" data-theme="dark">
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Serving</th>
+                  <th>Caffeine</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Coffee</td>
+                  <td>1 cup (8 fl oz)(237 g)</td>
+                  <td>95 mg</td>
+                </tr>
+                <tr>
+                  <td>Tea</td>
+                  <td>1 cup (8 fl oz)(238 g)</td>
+                  <td>22—28 mg</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3">
+                    Source:
+                    <a
+                      href="https://en.wikipedia.org/wiki/Coffee"
+                      rel="noopener noreferer"
+                      >Coffee</a
+                    >,
+                    <a
+                      href="https://en.wikipedia.org/wiki/Tea"
+                      rel="noopener noreferer"
+                      >Tea</a
+                    >
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

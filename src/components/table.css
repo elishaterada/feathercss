@@ -1,3 +1,5 @@
+/* Table */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -7,6 +9,9 @@ table {
 th {
   padding: 0.5rem;
   text-align: start;
+  font-size: var(--feather-base-font-size);
+  line-height: var(--feather-base-line-height);
+  font-weight: bold;
 }
 
 th:first-of-type {
@@ -23,13 +28,13 @@ tr {
 
 td {
   padding: 1rem;
+  font-size: var(--feather-base-font-size);
+  line-height: var(--feather-base-line-height);
 }
-
 
 td:last-of-type {
   padding: 1rem 0 1rem 1rem;
 }
-
 
 td:first-of-type {
   padding: 1rem 1rem 1rem 0;

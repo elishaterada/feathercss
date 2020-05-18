@@ -14,7 +14,9 @@
   transition: background-color var(--feather-transition-speed) ease;
 }
 
-.button:hover, .button:focus, .button:active {
+.button:hover,
+.button:focus,
+.button:active {
   background: var(--feather-color-gray-6);
 }
 
@@ -34,11 +36,14 @@
   border: 0.063rem solid var(--feather-color-primary);
   border-radius: var(--feather-roundness-1);
   font-size: var(--feather-base-font-size);
-  color: #FFFFFF;
-  transition: background-color var(--feather-transition-speed) ease, border-color var(--feather-transition-speed) ease;
+  color: #ffffff;
+  transition: background-color var(--feather-transition-speed) ease,
+    border-color var(--feather-transition-speed) ease;
 }
 
-.primary-button:hover, .primary-button:focus, .primary-button:active {
+.primary-button:hover,
+.primary-button:focus,
+.primary-button:active {
   background: var(--feather-color-primary-focus);
   border-color: var(--feather-color-primary-focus);
 }
@@ -62,7 +67,9 @@
   transition: background-color var(--feather-transition-speed) ease;
 }
 
-.clear-button:hover, .clear-button:focus, .clear-button:active {
+.clear-button:hover,
+.clear-button:focus,
+.clear-button:active {
   background: var(--feather-color-gray-6);
 }
 

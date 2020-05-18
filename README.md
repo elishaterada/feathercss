@@ -70,14 +70,7 @@ import "feathercss";
 import "feathercss/dist/components/variables"; // Required
 import "feathercss/dist/components/global"; // Required
 import "feathercss/dist/components/typography";
-import "feathercss/dist/components/blockquote";
-import "feathercss/dist/components/buttons";
-import "feathercss/dist/components/list";
-import "feathercss/dist/components/form/common";
-import "feathercss/dist/components/form/select";
-import "feathercss/dist/components/form/checkbox";
-import "feathercss/dist/components/form/radio";
-import "feathercss/dist/components/table";
+//... and so forth
 ```
 
 
@@ -87,17 +80,10 @@ import "feathercss/dist/components/table";
 @import "feathercss/dist/feather.css"; /* or feather.min.css */
 
 /* or import them individually */
-@import "feathercss/dist/components/variables.css";
-@import "feathercss/dist/components/global.css";
+@import "feathercss/dist/components/variables.css"; /* Required */
+@import "feathercss/dist/components/global.css"; /* Required */
 @import "feathercss/dist/components/typography.css";
-@import "feathercss/dist/components/blockquote.css";
-@import "feathercss/dist/components/buttons.css";
-@import "feathercss/dist/components/list.css";
-@import "feathercss/dist/components/form/common.css";
-@import "feathercss/dist/components/form/select.css";
-@import "feathercss/dist/components/form/checkbox.css";
-@import "feathercss/dist/components/form/radio.css";
-@import "feathercss/dist/components/table.css";
+/*... and so forth*/
 ```
 
 ### For LESS/Sass
@@ -106,15 +92,8 @@ import "feathercss/dist/components/table";
 @import "feathercss/dist/feather"; /* or feather.min */
 
 /* or import them individually */
-@import "feathercss/dist/components/variables";
-@import "feathercss/dist/components/global";
+@import "feathercss/dist/components/variables"; /* Required */
+@import "feathercss/dist/components/global"; /* Required */
 @import "feathercss/dist/components/typography";
-@import "feathercss/dist/components/blockquote";
-@import "feathercss/dist/components/buttons";
-@import "feathercss/dist/components/list";
-@import "feathercss/dist/components/form/common";
-@import "feathercss/dist/components/form/select";
-@import "feathercss/dist/components/form/checkbox";
-@import "feathercss/dist/components/form/radio";
-@import "feathercss/dist/components/table";
+/*... and so forth*/
 ```

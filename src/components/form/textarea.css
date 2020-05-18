@@ -1,0 +1,19 @@
+/* Textarea */
+
+textarea {
+  outline: none;
+  display: block;
+  box-shadow: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--feather-roundness-1);
+  background: var(--feather-color-gray-8);
+  border: 0.063rem solid var(--feather-color-border);
+  font-size: 1rem;
+  color: var(--feather-color-gray-2);
+  transition: border-color var(--feather-color-primary) ease;
+}
+
+textarea:focus,
+textarea:active {
+  border-color: var(--feather-color-primary);
+}

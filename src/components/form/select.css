@@ -1,3 +1,5 @@
+/* Select */
+
 .select {
   display: inline-block;
   position: relative;
@@ -16,7 +18,7 @@
   border-color: var(--feather-color-border) transparent transparent transparent;
 }
 
-[dir=rtl] .select:after {
+[dir="rtl"] .select:after {
   right: initial;
   left: 0;
   transform: translate(100%, -50%);
@@ -37,10 +39,11 @@ select {
   transition: border-color var(--feather-color-primary) ease;
 }
 
-[dir=rtl] select {
+[dir="rtl"] select {
   padding: 0.5rem 0.75rem 0.5rem 1.75rem;
 }
 
-select:focus, select:active {
+select:focus,
+select:active {
   border-color: var(--feather-color-primary);
 }
