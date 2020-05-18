@@ -1,3 +1,5 @@
+![FeatherCSS](logo.png)
+
 # FeatherCSS
 
 FeatherCSS is a lightweight CSS framework that doesn’t get in your way of creativity.
