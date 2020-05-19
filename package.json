@@ -1,6 +1,6 @@
 {
   "name": "feathercss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "FeatherCSS is a lightweight CSS framework that doesn’t get in your way of creativity.",
   "main": "index.js",
   "scripts": {

@@ -1,4 +1,4 @@
-![FeatherCSS](logo.png)
+![FeatherCSS](https://raw.githubusercontent.com/elishaterada/feathercss/master/logo.png)
 
 # FeatherCSS
 

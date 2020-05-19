@@ -1,0 +1,44 @@
+/* Common */
+
+label {
+  position: relative;
+  display: block;
+  margin: 0 0 0.5rem;
+}
+
+.label-text {
+  display: block;
+  margin: 0 0 0.5rem;
+  font-size: var(--base-font-size);
+  color: var(--color-gray-2);
+}
+
+.form-success-message {
+  display: block;
+  margin: 0.125rem 0 0;
+  font-size: var(--base-font-size);
+  color: var(--color-success);
+}
+
+.form-error-message {
+  display: block;
+  margin: 0.125rem 0 0;
+  font-size: var(--base-font-size);
+  color: var(--color-error);
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  -webkit-margin-start: 0;
+  margin-inline-start: 0;
+  -webkit-margin-end: 0;
+  margin-inline-end: 0;
+}
+
+legend {
+  margin: 0 0 0.5rem;
+  padding: 0;
+  font-size: var(--base-font-size);
+  color: var(--color-gray-2);
+}

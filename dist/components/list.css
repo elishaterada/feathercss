@@ -1,0 +1,93 @@
+/* Unordered List */
+
+ul {
+  margin: 1rem 0;
+  padding: 0 0 0 2rem;
+  list-style: disc;
+}
+
+[dir="rtl"] ul {
+  padding: 0 2rem 0 0;
+}
+
+ul.reset {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.reset li {
+  display: inline-block;
+}
+
+/* Ordered List */
+
+ol {
+  margin: 1rem 0;
+  padding: 0 0 0 2rem;
+  list-style: numeric;
+}
+
+[dir="rtl"] ol {
+  padding: 0 2rem 0 0;
+}
+
+ul.reset {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.reset li {
+  display: inline-block;
+}
+
+/* List Item */
+li {
+  margin: 0;
+  padding: 0;
+  line-height: var(--base-line-height);
+  font-size: var(--base-font-size);
+  color: var(--color-gray-1);
+}
+
+/* Description List */
+
+dl {
+  margin: 1rem 0;
+  padding: 0;
+  list-style: numeric;
+}
+
+dl:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+dt {
+  clear: left;
+  float: left;
+  width: 25%;
+  margin: 0 0 0.25rem;
+  padding: 0;
+  line-height: var(--base-line-height);
+  font-size: var(--base-font-size);
+  color: var(--color-gray-1);
+}
+
+[dir="rtl"] .dt {
+  clear: right;
+  float: right;
+}
+
+dd {
+  margin: 0 0 0.25rem;
+  padding: 0;
+  line-height: var(--base-line-height);
+  font-size: var(--base-font-size);
+  font-weight: bold;
+  color: var(--color-gray-1);
+}

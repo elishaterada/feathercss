@@ -1,0 +1,78 @@
+/* Default Button */
+
+.button {
+  outline: none;
+  cursor: pointer;
+  box-shadow: none;
+  background: var(--color-gray-8);
+  margin: 0;
+  padding: 0.75rem 2rem;
+  border: 0.063rem solid var(--color-border);
+  border-radius: var(--roundness-1);
+  font-size: var(--base-font-size);
+  color: var(--color-gray-1);
+  transition: background-color var(--transition-speed) ease;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background: var(--color-gray-6);
+}
+
+.button:disabled {
+  opacity: var(--disabled-opacity);
+}
+
+/* Primary Button */
+
+.primary-button {
+  outline: none;
+  cursor: pointer;
+  box-shadow: none;
+  background: var(--color-primary);
+  margin: 0;
+  padding: 0.75rem 2rem;
+  border: 0.063rem solid var(--color-primary);
+  border-radius: var(--roundness-1);
+  font-size: var(--base-font-size);
+  color: #ffffff;
+  transition: background-color var(--transition-speed) ease,
+    border-color var(--transition-speed) ease;
+}
+
+.primary-button:hover,
+.primary-button:focus,
+.primary-button:active {
+  background: var(--color-primary-focus);
+  border-color: var(--color-primary-focus);
+}
+
+.primary-button:disabled {
+  opacity: var(--disabled-opacity);
+}
+
+/* Clear Button */
+.clear-button {
+  outline: none;
+  cursor: pointer;
+  box-shadow: none;
+  background: transparent;
+  margin: 0;
+  padding: 0.75rem 2rem;
+  border: 0;
+  border-radius: var(--roundness-1);
+  font-size: var(--base-font-size);
+  color: var(--color-gray-1);
+  transition: background-color var(--transition-speed) ease;
+}
+
+.clear-button:hover,
+.clear-button:focus,
+.clear-button:active {
+  background: var(--color-gray-6);
+}
+
+.clear-button:disabled {
+  opacity: var(--disabled-opacity);
+}

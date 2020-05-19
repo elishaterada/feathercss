@@ -1,0 +1,41 @@
+/* Table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--color-gray-1);
+}
+
+th {
+  padding: 0.5rem;
+  text-align: start;
+  font-size: var(--base-font-size);
+  line-height: var(--base-line-height);
+  font-weight: bold;
+}
+
+th:first-of-type {
+  padding: 1rem 1rem 1rem 0;
+}
+
+th:last-of-type {
+  padding: 1rem 0 1rem 1rem;
+}
+
+tr {
+  border-bottom: 0.063rem solid var(--color-border);
+}
+
+td {
+  padding: 1rem;
+  font-size: var(--base-font-size);
+  line-height: var(--base-line-height);
+}
+
+td:last-of-type {
+  padding: 1rem 0 1rem 1rem;
+}
+
+td:first-of-type {
+  padding: 1rem 1rem 1rem 0;
+}

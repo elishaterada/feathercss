@@ -1,0 +1,34 @@
+/* Text Input */
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"] {
+  outline: none;
+  display: block;
+  box-shadow: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--roundness-1);
+  background: var(--color-gray-8);
+  border: 0.063rem solid var(--color-border);
+  font-size: 1rem;
+  color: var(--color-gray-2);
+  transition: border-color var(--color-primary) ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="url"]:focus {
+  border-color: var(--color-primary);
+}
