@@ -31,7 +31,7 @@
     "url": "https://github.com/elishaterada/feathercss/issues"
   },
   "homepage": "https://github.com/elishaterada/feathercss#readme",
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^9.8.0",
     "clean-css-cli": "^4.3.0",
     "postcss-cli": "^7.1.1",
