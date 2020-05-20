@@ -1,4 +1,6 @@
-/* Unordered List */
+/*!
+ * Unordered List
+ */
 
 ul {
   margin: 1rem 0;
@@ -21,7 +23,9 @@ ul.reset li {
   display: inline-block;
 }
 
-/* Ordered List */
+/*!
+ * Ordered List
+ */
 
 ol {
   margin: 1rem 0;
@@ -44,7 +48,10 @@ ul.reset li {
   display: inline-block;
 }
 
-/* List Item */
+/*!
+ * List Item
+ */
+
 li {
   margin: 0;
   padding: 0;
@@ -53,7 +60,9 @@ li {
   color: var(--color-gray-1);
 }
 
-/* Description List */
+/*!
+ * Description List
+ */
 
 dl {
   margin: 1rem 0;

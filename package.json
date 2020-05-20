@@ -1,14 +1,14 @@
 {
   "name": "feathercss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "FeatherCSS is a lightweight CSS framework that doesn’t get in your way of creativity.",
   "main": "index.js",
   "scripts": {
     "build": "npm run clean; npm run autoprefix; npm run merge; npm run minify",
     "clean": "rimraf dist",
     "autoprefix": "npx postcss src/*.css src/**/*.css src/**/**/*.css --base src --dir dist/ --use autoprefixer --no-map --verbose",
-    "merge": "npx cleancss --level 2 --format beautify -o dist/feather.css dist/components/variables.css dist/components/global.css dist/**/*.css dist/**/**/*.css",
-    "minify": "npx cleancss --level 2 -o dist/feather.min.css dist/components/variables.css dist/components/global.css dist/**/*.css dist/**/**/*.css",
+    "merge": "npx cleancss --level 2 --format beautify -o dist/feather.css dist/components/variables.css dist/components/global.css dist/components/typography.css dist/**/*.css dist/**/**/*.css",
+    "minify": "npx cleancss --level 2 -o dist/feather.min.css dist/components/variables.css dist/components/global.css dist/components/typography.css dist/**/*.css dist/**/**/*.css",
     "prepare": "npm run build",
     "prettier": "npx prettier src"
   },

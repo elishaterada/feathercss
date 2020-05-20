@@ -1,13 +1,43 @@
+/*!
+ * Global
+ */
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+html {
+  -webkit-scrollbar-width: thin;
+  -moz-scrollbar-width: thin;
+  -ms-scrollbar-width: thin;
+  scrollbar-width: thin;
+  -webkit-scrollbar-color: var(--color-primary) var(--color-gray-8);
+  -moz-scrollbar-color: var(--color-primary) var(--color-gray-8);
+  -ms-scrollbar-color: var(--color-primary) var(--color-gray-8);
+  scrollbar-color: var(--color-primary) var(--color-gray-8);
+}
+
 body {
   min-height: 100vh;
   font-family: var(--font-family);
   color: var(--color-gray-1);
+  background-color: var(--color-background);
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--color-gray-8);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  border-radius: 6px;
+  border: 3px solid var(--color-gray-8);
 }
 
 img {

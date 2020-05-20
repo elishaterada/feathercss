@@ -1,4 +1,6 @@
-/* Default Button */
+/*!
+ * Default button
+ */
 
 .button {
   outline: none;
@@ -24,7 +26,9 @@
   opacity: var(--disabled-opacity);
 }
 
-/* Primary Button */
+/*!
+ * Primary button
+ */
 
 .primary-button {
   outline: none;
@@ -52,7 +56,10 @@
   opacity: var(--disabled-opacity);
 }
 
-/* Clear Button */
+/*!
+ * Clear button
+ */
+
 .clear-button {
   outline: none;
   cursor: pointer;
