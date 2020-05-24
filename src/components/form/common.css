@@ -12,6 +12,7 @@ label {
   display: block;
   margin: 0 0 0.5rem;
   font-size: var(--base-font-size);
+  font-weight: 600;
   color: var(--color-gray-2);
 }
 
@@ -42,5 +43,6 @@ legend {
   margin: 0 0 0.5rem;
   padding: 0;
   font-size: var(--base-font-size);
+  font-weight: 600;
   color: var(--color-gray-2);
 }

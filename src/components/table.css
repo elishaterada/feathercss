@@ -13,7 +13,7 @@ th {
   text-align: start;
   font-size: var(--base-font-size);
   line-height: var(--base-line-height);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 th:first-of-type {

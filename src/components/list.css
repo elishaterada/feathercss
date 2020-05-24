@@ -97,6 +97,6 @@ dd {
   padding: 0;
   line-height: var(--base-line-height);
   font-size: var(--base-font-size);
-  font-weight: bold;
+  font-weight: 600;
   color: var(--color-gray-1);
 }
