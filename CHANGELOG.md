@@ -1,9 +1,15 @@
 # Changelog
 
+## [1.0.6](https://github.com/elishaterada/feathercss/compare/v1.0.5...v1.0.6) (May 23, 2020)
+
+- Minor Readme update
+
+
 ## [1.0.5](https://github.com/elishaterada/feathercss/compare/v1.0.4...v1.0.5) (May 23, 2020)
 
 - Add ```smooth-scroll``` behavior to html
 - Add ```<hr />``` style support
+
 
 ## [1.0.4](https://github.com/elishaterada/feathercss/compare/v1.0.3...v1.0.4) (May 23, 2020)
 
@@ -14,6 +20,7 @@
 - Explicitly set ```font-family``` on ```<textarea>```
 - Remove default margin and padding from ```<body>```
 - Make button classes compatible with ```<a>```
+
 
 ## [1.0.3](https://github.com/elishaterada/feathercss/compare/v1.0.2...v1.0.3) (May 20, 2020)
 - Move dependencies into devDependencies instead
