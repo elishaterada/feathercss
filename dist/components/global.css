@@ -9,6 +9,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   -webkit-scrollbar-width: thin;
   -moz-scrollbar-width: thin;
   -ms-scrollbar-width: thin;
@@ -42,6 +43,16 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid var(--color-gray-8);
 }
 
+::-moz-selection {
+  background: var(--color-primary);
+  color: white;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: white;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -63,12 +74,7 @@ pre {
   word-wrap: break-word;
 }
 
-::-moz-selection {
-  background: var(--color-primary);
-  color: white;
-}
-
-::selection {
-  background: var(--color-primary);
-  color: white;
+hr {
+  border-top: 0;
+  border-bottom: 0.125rem solid var(--color-border);
 }

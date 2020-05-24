@@ -1,5 +1,5 @@
 /*!
- * FeatherCSS v1.0.4
+ * FeatherCSS v1.0.5
  * https://github.com/elishaterada/feathercss
  *
  * Copyright (c) 2020 Elisha Terada
@@ -69,6 +69,7 @@
   box-sizing: border-box
 }
 html {
+  scroll-behavior: smooth;
   -webkit-scrollbar-width: thin;
   -moz-scrollbar-width: thin;
   -ms-scrollbar-width: thin;
@@ -97,6 +98,14 @@ body::-webkit-scrollbar-thumb {
   border-radius: 6px;
   border: 3px solid var(--color-gray-8)
 }
+::-moz-selection {
+  background: var(--color-primary);
+  color: #fff
+}
+::selection {
+  background: var(--color-primary);
+  color: #fff
+}
 img {
   max-width: 100%;
   display: block
@@ -114,13 +123,9 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word
 }
-::-moz-selection {
-  background: var(--color-primary);
-  color: #fff
-}
-::selection {
-  background: var(--color-primary);
-  color: #fff
+hr {
+  border-top: 0;
+  border-bottom: .125rem solid var(--color-border)
 }
 /*!
  * Typography

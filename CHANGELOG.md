@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.5](https://github.com/elishaterada/feathercss/compare/v1.0.4...v1.0.5) (May 23, 2020)
+
+- Add ```smooth-scroll``` behavior to html
+- Add ```<hr />``` style support
+
 ## [1.0.4](https://github.com/elishaterada/feathercss/compare/v1.0.3...v1.0.4) (May 23, 2020)
 
 - Add ```<mark>``` style support
