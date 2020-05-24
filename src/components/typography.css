@@ -53,6 +53,18 @@
 p {
   margin: 0 0 1rem;
   line-height: var(--base-line-height);
-  font-size: var(--base-font-size);
   color: var(--color-gray-2);
+}
+
+mark {
+  color: inherit;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 70%,
+    var(--color-highlight) 70%
+  );
+}
+
+code {
+  font-size: 1rem;
 }

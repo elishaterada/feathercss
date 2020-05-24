@@ -20,10 +20,21 @@
   padding: 2rem;
 }
 
+.preview-group {
+  display: grid;
+  grid-gap: 1rem;
+}
+
 .preview-theme-group {
   display: grid;
   align-items: start;
   grid-gap: 2rem;
+}
+
+@media (min-width: 80rem) {
+  .preview-theme-group {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .preview-buttons {
@@ -36,12 +47,6 @@
 .preview-form {
   display: grid;
   grid-gap: 2rem;
-}
-
-@media (min-width: 80rem) {
-  .preview-theme-group {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
 }
 
 .preview-light-theme {

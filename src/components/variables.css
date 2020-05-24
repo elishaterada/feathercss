@@ -20,6 +20,7 @@
   /* Colors */
   --color-primary: hsl(190, 97%, 30%);
   --color-primary-focus: hsl(190, 97%, 38%);
+  --color-highlight: hsl(190, 97%, 85%);
   --color-success: hsl(130, 66%, 32%);
   --color-error: hsl(0, 66%, 47%);
   --color-link: hsl(210, 66%, 47%);
@@ -54,6 +55,7 @@
 [data-theme="dark"] {
   --color-primary: hsl(190, 97%, 38%);
   --color-primary-focus: hsl(190, 97%, 30%);
+  --color-highlight: hsl(190, 97%, 25%);
   --color-success: hsl(130, 66%, 52%);
   --color-error: hsl(0, 66%, 52%);
   --color-link: hsl(210, 66%, 52%);
