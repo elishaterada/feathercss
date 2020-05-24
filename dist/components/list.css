@@ -87,7 +87,7 @@ dt {
   color: var(--color-gray-1);
 }
 
-[dir="rtl"] .dt {
+[dir="rtl"] dt {
   clear: right;
   float: right;
 }
@@ -97,6 +97,6 @@ dd {
   padding: 0;
   line-height: var(--base-line-height);
   font-size: var(--base-font-size);
-  font-weight: bold;
+  font-weight: 600;
   color: var(--color-gray-1);
 }

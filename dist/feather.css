@@ -1,5 +1,5 @@
 /*!
- * FeatherCSS v1.0.3
+ * FeatherCSS v1.0.4
  * https://github.com/elishaterada/feathercss
  *
  * Copyright (c) 2020 Elisha Terada
@@ -14,6 +14,7 @@
   --disabled-opacity: 0.75;
   --color-primary: hsl(190, 97%, 30%);
   --color-primary-focus: hsl(190, 97%, 38%);
+  --color-highlight: hsl(190, 97%, 85%);
   --color-success: hsl(130, 66%, 32%);
   --color-error: hsl(0, 66%, 47%);
   --color-link: hsl(210, 66%, 47%);
@@ -42,6 +43,7 @@
 [data-theme=dark] {
   --color-primary: hsl(190, 97%, 38%);
   --color-primary-focus: hsl(190, 97%, 30%);
+  --color-highlight: hsl(190, 97%, 25%);
   --color-success: hsl(130, 66%, 52%);
   --color-error: hsl(0, 66%, 52%);
   --color-link: hsl(210, 66%, 52%);
@@ -77,10 +79,12 @@ html {
   scrollbar-color: var(--color-primary) var(--color-gray-8)
 }
 body {
+  margin: 0;
+  padding: 0;
   min-height: 100vh;
+  background-color: var(--color-background);
   font-family: var(--font-family);
-  color: var(--color-gray-1);
-  background-color: var(--color-background)
+  color: var(--color-gray-1)
 }
 body::-webkit-scrollbar {
   width: 12px
@@ -166,8 +170,14 @@ pre {
 p {
   margin: 0 0 1rem;
   line-height: var(--base-line-height);
-  font-size: var(--base-font-size);
   color: var(--color-gray-2)
+}
+mark {
+  color: inherit;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 70%,var(--color-highlight) 70%)
+}
+code {
+  font-size: 1rem
 }
 /*!
  * Block Quote
@@ -188,6 +198,7 @@ blockquote {
  * Default button
  */
 .button {
+  display: inline-block;
   outline: 0;
   cursor: pointer;
   box-shadow: none;
@@ -198,12 +209,15 @@ blockquote {
   border-radius: var(--roundness-1);
   font-size: var(--base-font-size);
   color: var(--color-gray-1);
+  text-align: center;
   transition: background-color var(--transition-speed) ease
 }
 .button:active,
 .button:focus,
 .button:hover {
-  background: var(--color-gray-6)
+  background: var(--color-gray-6);
+  text-decoration: none;
+  color: var(--color-gray-1)
 }
 .button:disabled {
   opacity: var(--disabled-opacity)
@@ -212,6 +226,7 @@ blockquote {
  * Primary button
  */
 .primary-button {
+  display: inline-block;
   outline: 0;
   cursor: pointer;
   box-shadow: none;
@@ -222,13 +237,16 @@ blockquote {
   border-radius: var(--roundness-1);
   font-size: var(--base-font-size);
   color: #fff;
+  text-align: center;
   transition: background-color var(--transition-speed) ease,border-color var(--transition-speed) ease
 }
 .primary-button:active,
 .primary-button:focus,
 .primary-button:hover {
   background: var(--color-primary-focus);
-  border-color: var(--color-primary-focus)
+  border-color: var(--color-primary-focus);
+  text-decoration: none;
+  color: #fff
 }
 .primary-button:disabled {
   opacity: var(--disabled-opacity)
@@ -237,6 +255,7 @@ blockquote {
  * Clear button
  */
 .clear-button {
+  display: inline-block;
   outline: 0;
   cursor: pointer;
   box-shadow: none;
@@ -247,12 +266,15 @@ blockquote {
   border-radius: var(--roundness-1);
   font-size: var(--base-font-size);
   color: var(--color-gray-1);
+  text-align: center;
   transition: background-color var(--transition-speed) ease
 }
 .clear-button:active,
 .clear-button:focus,
 .clear-button:hover {
-  background: var(--color-gray-6)
+  background: var(--color-gray-6);
+  text-decoration: none;
+  color: var(--color-gray-1)
 }
 .clear-button:disabled {
   opacity: var(--disabled-opacity)
@@ -330,7 +352,7 @@ dt {
   font-size: var(--base-font-size);
   color: var(--color-gray-1)
 }
-[dir=rtl] .dt {
+[dir=rtl] dt {
   clear: right;
   float: right
 }
@@ -339,7 +361,7 @@ dd {
   padding: 0;
   line-height: var(--base-line-height);
   font-size: var(--base-font-size);
-  font-weight: 700;
+  font-weight: 600;
   color: var(--color-gray-1)
 }
 /*!
@@ -355,7 +377,7 @@ th {
   text-align: start;
   font-size: var(--base-font-size);
   line-height: var(--base-line-height);
-  font-weight: 700
+  font-weight: 600
 }
 th:first-of-type {
   padding: 1rem 1rem 1rem 0
@@ -446,6 +468,7 @@ label {
   display: block;
   margin: 0 0 .5rem;
   font-size: var(--base-font-size);
+  font-weight: 600;
   color: var(--color-gray-2)
 }
 .form-success-message {
@@ -472,6 +495,7 @@ legend {
   margin: 0 0 .5rem;
   padding: 0;
   font-size: var(--base-font-size);
+  font-weight: 600;
   color: var(--color-gray-2)
 }
 /*!
@@ -620,6 +644,7 @@ textarea {
   background: var(--color-gray-8);
   border: .063rem solid var(--color-border);
   font-size: 1rem;
+  font-family: var(--font-family);
   color: var(--color-gray-2);
   transition: border-color var(--color-primary) ease
 }
