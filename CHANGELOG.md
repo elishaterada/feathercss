@@ -1,7 +1,17 @@
 # Changelog
 
+## [1.0.4](https://github.com/elishaterada/feathercss/compare/v1.0.3...v1.0.4) (May 23, 2020)
+
+- Add ```<mark>``` style support
+- Add ```<code>``` style support
+- Fix RTL support fot ```<dt>``` element
+- Use defualt font size for ```<p>``` instead for improved readability
+- Explicitly set ```font-family``` on ```<textarea>```
+- Remove default margin and padding from ```<body>```
+- Make button classes compatible with ```<a>```
+
 ## [1.0.3](https://github.com/elishaterada/feathercss/compare/v1.0.2...v1.0.3) (May 20, 2020)
-- Move dependencies into devDependencies insitead
+- Move dependencies into devDependencies instead
 
 
 ## [1.0.2](https://github.com/elishaterada/feathercss/compare/v1.0.1...v1.0.2) (May 20, 2020)
