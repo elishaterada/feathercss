@@ -9,6 +9,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   -webkit-scrollbar-width: thin;
   -moz-scrollbar-width: thin;
   -ms-scrollbar-width: thin;
