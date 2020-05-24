@@ -43,6 +43,11 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid var(--color-gray-8);
 }
 
+::selection {
+  background: var(--color-primary);
+  color: white;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -64,7 +69,7 @@ pre {
   word-wrap: break-word;
 }
 
-::selection {
-  background: var(--color-primary);
-  color: white;
+hr {
+  border-top: 0;
+  border-bottom: 0.125rem solid var(--color-border);
 }
