@@ -9,7 +9,6 @@
     "autoprefix": "npx postcss src/*.css src/**/*.css src/**/**/*.css --base src --dir dist/ --use autoprefixer --no-map --verbose",
     "merge": "npx cleancss --level 2 --format beautify -o dist/feather.css dist/components/variables.css dist/components/global.css dist/components/typography.css dist/**/*.css dist/**/**/*.css",
     "minify": "npx cleancss --level 2 -o dist/feather.min.css dist/components/variables.css dist/components/global.css dist/components/typography.css dist/**/*.css dist/**/**/*.css",
-    "prepare": "npm run build",
     "prettier": "npx prettier src"
   },
   "repository": {
