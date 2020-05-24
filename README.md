@@ -1,8 +1,9 @@
-![FeatherCSS](https://raw.githubusercontent.com/elishaterada/feathercss/master/logo.png)
+<a align="center" href="https://www.feathercss.com/"><img width="100%" src="https://raw.githubusercontent.com/elishaterada/feathercss/master/logo.png" alt="FeatherCSS - A Dark Mode ready minimalist CSS framework."></a>
+
 
 # FeatherCSS
 
-FeatherCSS is a minimalist CSS starter that come with Dark-Mode, RTL, and accessibility out of the box. At the same time, it excludes features like grid systems because you can just use CSS Grid to create any layout you want.
+FeatherCSS is a minimalist CSS starter that come with Dark Mode, RTL, and accessibility out of the box. It purposefully excludes features like grid layout, media queries, or icons which tends to require per-project customization.
 
 
 ## Key Highlights
@@ -74,3 +75,12 @@ import "feathercss/dist/components/typography";
 @import "feathercss/dist/components/typography";
 /*... and so forth*/
 ```
+
+## Usage
+
+- [Typography](https://www.feathercss.com/#typography)
+- [Blockquote](https://www.feathercss.com/#blockquote)
+- [Buttons](https://www.feathercss.com/#buttons)
+- [Lists](https://www.feathercss.com/#lists)
+- [Form](https://www.feathercss.com/#form)
+- [Table](https://www.feathercss.com/#table)
