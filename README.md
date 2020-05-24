@@ -2,47 +2,22 @@
 
 # FeatherCSS
 
-FeatherCSS is a lightweight CSS framework that doesn’t get in your way of creativity.
+FeatherCSS is a minimalist CSS starter that come with Dark-Mode, RTL, and accessibility out of the box. At the same time, it excludes features like grid systems because you can just use CSS Grid to create any layout you want.
 
 
-## In a nutshell
+## Key Highlights
 
-- It’s Just CSS™ with which you can build on with CSS variables
-- Only 2kb gzipped
-- Dark Mode support out of box when you append ```[data-theme=dark]``` to the body or at component level. You can bring your JS solution to let users toggle the data attribute on and off, or set automatically from system settings.
-- a11y friendly markup and CSS to achieve custom look and feel, and RTL support for wider adoption.
+- It’s Just CSS™ with CSS variables. Bring your own LESS/SaaS/CSS-in-JS solution
+- Super minimal at only 2kb gzipped
+- Learn just a few simple class names, the rest is default you can tweak around directly.
 
+## How Dark Mode works
 
-## Is it for you?
-
-You should use FeatherCSS if you are already comfortable with modern CSS features like CSS Grid Layout but want to save time undoing browser CSS and setting up a sensible starting point for common elements like buttons, form elements, and headings. The goal is to be a minimal starter that you can carry on to building professional websites.
-
-
-
-### With FeatherCSS you don’t have to:
-
-- Memorize and compose **100+ obscure class names**.
-- Bloat your CSS with **unnecessary utilities** such media queries and grid systems that you can easily write yourself and often requires a customization per project.
-- Override that Bootstrap/Material look you or your designer dislikes, and undoing framework CSS on top of browser defaults.
-- Work around to support accessibility, dark mode, rtl, etc.
-- Choose between 6 different button sizes when you really just need one, and actively prevent your team members from using a wrong button size.
-- Deal with installing LESS/SaSS compilers when you want to just use CSS or import it within CSS-in-JS environment.
-
+FeatherCSS ships with **Dark Mode** support out of the box with CSS variables. In order to provide maximum flexibility of turning it on, off, or automatically switch based on user display settings, you can toggle ```data-theme="dark"``` attribute to your markup with a minimal JavaScript code (consult your framework specific solutions).
 
 ## Browser Support
 
-FeatherCSS uses [autoprefixer](https://github.com/postcss/autoprefixer) to make its CSS compatible with older browser versions. FeatherCSS is compatible with the latest versions of:
-
-- Chrome
-- Firefox
-- Edge
-- Safari
-- iOS Safari
-- Android Browser
-
-Sorry, no IE support due to use of CSS Variables.
-
-
+FeatherCSS supports all the latest browsers (or degrade gracefully), minus the IE11 which is being deprecated even from high-traffic websites like StackOverflow and LinkedIn.
 
 ## Quick Install
 
