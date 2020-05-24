@@ -87,7 +87,7 @@ dt {
   color: var(--color-gray-1);
 }
 
-[dir="rtl"] .dt {
+[dir="rtl"] dt {
   clear: right;
   float: right;
 }
