@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.6](https://github.com/elishaterada/feathercss/compare/v1.0.6...v1.0.7) (May 24, 2020)
+
+- Fix ```<dt>``` to wrap properly
+
+
 ## [1.0.6](https://github.com/elishaterada/feathercss/compare/v1.0.5...v1.0.6) (May 23, 2020)
 
 - Minor Readme update

@@ -12,8 +12,8 @@ git add -A && git commit -m "Build for release"
 # 5. Update patch version
 npm version patch
 
-# 6. Check-in changes
-git push origin master
-
-# 7. Publish
+# 6. Publish
 npm publish
+
+# 7. Check-in changes
+git push origin master
