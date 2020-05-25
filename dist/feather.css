@@ -1,5 +1,5 @@
 /*!
- * FeatherCSS v1.0.6
+ * FeatherCSS v1.0.7
  * https://github.com/elishaterada/feathercss
  *
  * Copyright (c) 2020 Elisha Terada
@@ -352,16 +352,18 @@ dt {
   float: left;
   width: 25%;
   margin: 0 0 .25rem;
-  padding: 0;
+  padding: 0 1rem 0 0;
   line-height: var(--base-line-height);
   font-size: var(--base-font-size);
   color: var(--color-gray-1)
 }
 [dir=rtl] dt {
   clear: right;
-  float: right
+  float: right;
+  padding: 0 0 0 1rem
 }
 dd {
+  float: left;
   margin: 0 0 .25rem;
   padding: 0;
   line-height: var(--base-line-height);
