@@ -1,6 +1,11 @@
 # Changelog
 
-## [1.0.6](https://github.com/elishaterada/feathercss/compare/v1.0.6...v1.0.7) (May 24, 2020)
+## [1.0.8](https://github.com/elishaterada/feathercss/compare/v1.0.7...v1.0.8) (May 25, 2020)
+
+- Apply scroll bar customization to all elements
+
+
+## [1.0.7](https://github.com/elishaterada/feathercss/compare/v1.0.6...v1.0.7) (May 24, 2020)
 
 - Fix ```<dt>``` to wrap properly
 
