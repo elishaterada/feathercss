@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.9](https://github.com/elishaterada/feathercss/compare/v1.0.8...v1.0.9) (May 28, 2020)
+
+
+- Fix RTL for ```<dd>```
+
 ## [1.0.8](https://github.com/elishaterada/feathercss/compare/v1.0.7...v1.0.8) (May 25, 2020)
 
 - Apply scroll bar customization to all elements
