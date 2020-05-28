@@ -3,7 +3,7 @@
 
 # FeatherCSS
 
-FeatherCSS is a minimalist CSS starter that come with Dark Mode, RTL, and accessibility out of the box. It purposefully excludes features like grid layout, media queries, or icons which tends to require per-project customization.
+FeatherCSS is a Dark Mode ready minimalist CSS Framework with support for RTL and Accessibility. It purposefully excludes features like grid layout, media queries, or icons which tends to require per-project customization.
 
 [![Version Status](https://badge.fury.io/js/feathercss.svg)](https://www.npmjs.com/package/feathercss)
 [![Download Status](https://img.shields.io/npm/dt/feathercss.svg)](https://www.npmjs.com/package/feathercss)

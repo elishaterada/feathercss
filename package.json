@@ -1,7 +1,7 @@
 {
   "name": "feathercss",
   "version": "1.0.9",
-  "description": "FeatherCSS is a lightweight CSS framework that doesn’t get in your way of creativity.",
+  "description": "FeatherCSS is a Dark Mode ready minimalist CSS Framework with support for RTL and Accessibility.",
   "main": "index.js",
   "scripts": {
     "build": "npm run clean; npm run autoprefix; npm run merge; npm run minify",
