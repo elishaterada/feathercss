@@ -1,5 +1,5 @@
 /*!
- * FeatherCSS v1.0.8
+ * FeatherCSS v1.1.0
  * https://github.com/elishaterada/feathercss
  *
  * Copyright (c) 2020 Elisha Terada
@@ -370,6 +370,9 @@ dd {
   font-size: var(--base-font-size);
   font-weight: 600;
   color: var(--color-gray-1)
+}
+[dir=rtl] dd {
+  float: right
 }
 /*!
  * Table

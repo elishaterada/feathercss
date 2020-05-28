@@ -1,5 +1,5 @@
 /*!
- * FeatherCSS v1.0.8
+ * FeatherCSS v1.1.0
  * https://github.com/elishaterada/feathercss
  *
  * Copyright (c) 2020 Elisha Terada
@@ -29,7 +29,7 @@
  * List Item
  */li{margin:0;padding:0;line-height:var(--base-line-height);font-size:var(--base-font-size);color:var(--color-gray-1)}/*!
  * Description List
- */dl{margin:1rem 0;padding:0;list-style:numeric}dl:after{content:"";display:table;clear:both}dt{clear:left;float:left;width:25%;margin:0 0 .25rem;padding:0 1rem 0 0;line-height:var(--base-line-height);font-size:var(--base-font-size);color:var(--color-gray-1)}[dir=rtl] dt{clear:right;float:right;padding:0 0 0 1rem}dd{float:left;margin:0 0 .25rem;padding:0;line-height:var(--base-line-height);font-size:var(--base-font-size);font-weight:600;color:var(--color-gray-1)}/*!
+ */dl{margin:1rem 0;padding:0;list-style:numeric}dl:after{content:"";display:table;clear:both}dt{clear:left;float:left;width:25%;margin:0 0 .25rem;padding:0 1rem 0 0;line-height:var(--base-line-height);font-size:var(--base-font-size);color:var(--color-gray-1)}[dir=rtl] dt{clear:right;float:right;padding:0 0 0 1rem}dd{float:left;margin:0 0 .25rem;padding:0;line-height:var(--base-line-height);font-size:var(--base-font-size);font-weight:600;color:var(--color-gray-1)}[dir=rtl] dd{float:right}/*!
  * Table
  */table{width:100%;border-collapse:collapse;color:var(--color-gray-1)}th{padding:.5rem;text-align:start;font-size:var(--base-font-size);line-height:var(--base-line-height);font-weight:600}th:first-of-type{padding:1rem 1rem 1rem 0}th:last-of-type{padding:1rem 0 1rem 1rem}tr{border-bottom:.063rem solid var(--color-border)}td{padding:1rem;font-size:var(--base-font-size);line-height:var(--base-line-height)}td:last-of-type{padding:1rem 0 1rem 1rem}td:first-of-type{padding:1rem 1rem 1rem 0}/*!
  * Form: Checkbox

@@ -102,3 +102,7 @@ dd {
   font-weight: 600;
   color: var(--color-gray-1);
 }
+
+[dir="rtl"] dd {
+  float: right;
+}
