@@ -1,6 +1,6 @@
 {
   "name": "feathercss",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "FeatherCSS is a Dark Mode ready minimalist CSS Framework with support for RTL and Accessibility.",
   "main": "index.js",
   "scripts": {
