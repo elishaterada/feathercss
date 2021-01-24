@@ -1,4 +1,4 @@
-<a align="center" href="https://www.feathercss.com/"><img width="100%" src="https://raw.githubusercontent.com/elishaterada/feathercss/master/logo.png" alt="FeatherCSS - A Dark Mode ready minimalist CSS framework."></a>
+<a align="center" href="https://feathercss.makerkits.co/"><img width="100%" src="https://raw.githubusercontent.com/elishaterada/feathercss/master/logo.png" alt="FeatherCSS - A Dark Mode ready minimalist CSS framework."></a>
 
 
 # FeatherCSS
@@ -80,9 +80,9 @@ import "feathercss/dist/components/typography";
 
 ## Usage
 
-- [Typography](https://www.feathercss.com/#typography)
-- [Blockquote](https://www.feathercss.com/#blockquote)
-- [Buttons](https://www.feathercss.com/#buttons)
-- [Lists](https://www.feathercss.com/#lists)
-- [Form](https://www.feathercss.com/#form)
-- [Table](https://www.feathercss.com/#table)
+- [Typography](https://feathercss.makerkits.co/#typography)
+- [Blockquote](https://feathercss.makerkits.co/#blockquote)
+- [Buttons](https://feathercss.makerkits.co/#buttons)
+- [Lists](https://feathercss.makerkits.co/#lists)
+- [Form](https://feathercss.makerkits.co/#form)
+- [Table](https://feathercss.makerkits.co/#table)
