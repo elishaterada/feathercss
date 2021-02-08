@@ -1,8 +1,16 @@
 # Changelog
 
-## [1.1.1](https://github.com/elishaterada/feathercss/compare/v1.1.0...v1.1.1) (Feb 7, 2021)
+## [1.1.3](https://github.com/elishaterada/feathercss/compare/v1.1.2...v1.1.3) (Feb 7, 2021)
+
+- Fix version
+
+## [1.1.2](https://github.com/elishaterada/feathercss/compare/v1.1.1...v1.1.2) (Feb 7, 2021)
 
 - Fix the responsive layout for ```dt``` and ```dd``` tags
+
+## [1.1.1](https://github.com/elishaterada/feathercss/compare/v1.1.0...v1.1.1) (Feb 7, 2021)
+
+- Update domain
 
 ## [1.1.0](https://github.com/elishaterada/feathercss/compare/v1.0.9...v1.1.0) (May 28, 2020)
 
