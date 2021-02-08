@@ -77,10 +77,6 @@ dl:after {
 }
 
 dt {
-  clear: left;
-  float: left;
-  width: 25%;
-  margin: 0 0 0.25rem;
   padding: 0 1rem 0 0;
   line-height: var(--base-line-height);
   font-size: var(--base-font-size);
@@ -88,14 +84,25 @@ dt {
 }
 
 [dir="rtl"] dt {
-  clear: right;
-  float: right;
   padding: 0 0 0 1rem;
 }
 
+@media (min-width: 23.5rem) {
+  dt {
+    margin: 0 0 0.25rem;
+    clear: left;
+    float: left;
+    width: 25%;
+  }
+
+  [dir="rtl"] dt {
+    clear: right;
+    float: right;
+  }
+}
+
 dd {
-  float: left;
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.5rem;
   padding: 0;
   line-height: var(--base-line-height);
   font-size: var(--base-font-size);
@@ -103,6 +110,13 @@ dd {
   color: var(--color-gray-1);
 }
 
-[dir="rtl"] dd {
-  float: right;
+@media (min-width: 23.5em) {
+  dd {
+    margin: 0 0 0.25rem;
+    float: left;
+  }
+
+  [dir="rtl"] dd {
+    float: right;
+  }
 }
