@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.4](https://github.com/elishaterada/feathercss/compare/v1.1.3...v1.1.4) (Feb 7, 2021)
+
+- Adjust responsive layout threshold for ```dt``` and ```dd``` tags
+
 ## [1.1.3](https://github.com/elishaterada/feathercss/compare/v1.1.2...v1.1.3) (Feb 7, 2021)
 
 - Fix version

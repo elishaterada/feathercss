@@ -87,7 +87,7 @@ dt {
   padding: 0 0 0 1rem;
 }
 
-@media (min-width: 24rem) {
+@media (min-width: 23.5rem) {
   dt {
     margin: 0 0 0.25rem;
     clear: left;
@@ -110,7 +110,7 @@ dd {
   color: var(--color-gray-1);
 }
 
-@media (min-width: 24em) {
+@media (min-width: 23.5em) {
   dd {
     margin: 0 0 0.25rem;
     float: left;
