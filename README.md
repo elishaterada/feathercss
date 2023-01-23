@@ -1,11 +1,10 @@
-<a align="center" href="https://feathercss.makerkits.co/"><img width="100%" src="https://raw.githubusercontent.com/elishaterada/feathercss/master/logo.png" alt="FeatherCSS - A Dark Mode ready minimalist CSS framework."></a>
+<a align="center" href="https://feathercss.elishaterada.com/"><img width="100%" src="https://raw.githubusercontent.com/elishaterada/feathercss/master/logo.png" alt="FeatherCSS - A Dark Mode ready minimalist CSS framework."></a>
 
 
 # FeatherCSS
 
 FeatherCSS is a Dark Mode ready minimalist CSS Framework with support for RTL and Accessibility. It purposefully excludes features like grid layout, media queries, or icons which tends to require per-project customization.
 
-[![Version Status](https://badge.fury.io/js/feathercss.svg)](https://www.npmjs.com/package/feathercss)
 [![Download Status](https://img.shields.io/npm/dt/feathercss.svg)](https://www.npmjs.com/package/feathercss)
 
 ## Key Highlights
@@ -80,9 +79,9 @@ import "feathercss/dist/components/typography";
 
 ## Usage
 
-- [Typography](https://feathercss.makerkits.co/#typography)
-- [Blockquote](https://feathercss.makerkits.co/#blockquote)
-- [Buttons](https://feathercss.makerkits.co/#buttons)
-- [Lists](https://feathercss.makerkits.co/#lists)
-- [Form](https://feathercss.makerkits.co/#form)
-- [Table](https://feathercss.makerkits.co/#table)
+- [Typography](https://feathercss.elishaterada.com/#typography)
+- [Blockquote](https://feathercss.elishaterada.com/#blockquote)
+- [Buttons](https://feathercss.elishaterada.com/#buttons)
+- [Lists](https://feathercss.elishaterada.com/#lists)
+- [Form](https://feathercss.elishaterada.com/#form)
+- [Table](https://feathercss.elishaterada.com/#table)
