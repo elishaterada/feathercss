@@ -17,6 +17,17 @@ FeatherCSS is a Dark Mode ready minimalist CSS Framework with support for RTL an
 
 FeatherCSS ships with **Dark Mode** support out of the box with CSS variables. In order to provide maximum flexibility of turning it on, off, or automatically switch based on user display settings, you can toggle ```data-theme="dark"``` attribute to your markup with a minimal JavaScript code (consult your framework specific solutions).
 
+### Example JavaScript: query `prefers-color-scheme: dark` to set **Dark Mode**
+
+```javascript
+<script>
+  window.onload = function () {
+    if (window.matchMedia('(prefers-color-scheme: dark)'))
+      document.querySelector("body").dataset.theme = "dark";
+  };
+</script>
+```
+
 ## Browser Support
 
 FeatherCSS supports all the latest browsers (or degrade gracefully), minus the IE11 which is being deprecated even from high-traffic websites like StackOverflow and LinkedIn.
